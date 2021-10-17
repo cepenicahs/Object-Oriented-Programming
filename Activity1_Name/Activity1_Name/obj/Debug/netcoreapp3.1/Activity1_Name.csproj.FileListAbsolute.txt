@@ -1,0 +1,15 @@
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.exe
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.deps.json
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.runtimeconfig.json
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.runtimeconfig.dev.json
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.dll
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\bin\Debug\netcoreapp3.1\Activity1_Name.pdb
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.Form1.resources
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.AssemblyInfo.cs
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.dll
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.pdb
+C:\Users\acer\source\repos\object-oriented-programming\Activity1_Name\Activity1_Name\obj\Debug\netcoreapp3.1\Activity1_Name.genruntimeconfig.cache
