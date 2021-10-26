@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ScientificCalculator
 {
-    public partial class Form1 : Form
+    public partial class fromSciCal : Form
     {
-        public Form1()
+        public fromSciCal()
         {
             InitializeComponent();
         }

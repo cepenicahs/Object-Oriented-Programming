@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\acer\Desktop\Form1.cs" Link="Form1.cs" />
+  </ItemGroup>
+
 </Project>
