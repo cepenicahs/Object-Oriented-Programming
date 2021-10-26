@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Activity2_ScientificCalculator",
+    "\\Activity2_ScientificCalculator\\ScientificCalculator"
   ],
+  "SelectedNode": "\\Activity2_ScientificCalculator\\ScientificCalculator\\ScientificCalculator.csproj.user",
   "PreviewInSolutionExplorer": false
 }
