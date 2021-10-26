@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj": {}
+    "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj": {
+    "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
         "projectName": "Activity2_ScientificCalculator",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
+        "projectPath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\obj\\",
+        "outputPath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
