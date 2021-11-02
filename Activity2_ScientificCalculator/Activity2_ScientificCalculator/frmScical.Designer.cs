@@ -919,6 +919,7 @@ namespace Activity2_ScientificCalculator
             this.button10.TabIndex = 164;
             this.button10.Text = "π";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -931,6 +932,7 @@ namespace Activity2_ScientificCalculator
             this.button11.TabIndex = 163;
             this.button11.Text = "∑";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -943,6 +945,7 @@ namespace Activity2_ScientificCalculator
             this.button12.TabIndex = 162;
             this.button12.Text = "f\'(x)";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // checkBox2
             // 

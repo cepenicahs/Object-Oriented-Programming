@@ -368,5 +368,35 @@ namespace Activity2_ScientificCalculator
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (txtField.Text == "0")
+            {
+                txtField.Clear();
+            }
+
+            txtField.Text = txtField.Text + "π";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (txtField.Text == "0")
+            {
+                txtField.Clear();
+            }
+
+            txtField.Text = txtField.Text + "f'(x)";
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (txtField.Text == "0")
+            {
+                txtField.Clear();
+            }
+
+            txtField.Text = txtField.Text + "∑";
+        }
     }
 }
