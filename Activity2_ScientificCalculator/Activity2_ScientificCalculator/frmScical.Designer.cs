@@ -31,59 +31,59 @@ namespace Activity2_ScientificCalculator
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScical));
             this.label2 = new System.Windows.Forms.Label();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
+            this.btnEquals = new System.Windows.Forms.Button();
+            this.btnAns = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnPercent = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.btnMult = new System.Windows.Forms.Button();
+            this.btnMin = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btnDiv = new System.Windows.Forms.Button();
+            this.btnF = new System.Windows.Forms.Button();
+            this.btnE = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btnC = new System.Windows.Forms.Button();
+            this.btnB = new System.Windows.Forms.Button();
+            this.btnA = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
+            this.btnArccot = new System.Windows.Forms.Button();
+            this.btnCotan = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
+            this.btnArctan = new System.Windows.Forms.Button();
+            this.btnTan = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
+            this.btnArccos = new System.Windows.Forms.Button();
+            this.btnCos = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnArcsin = new System.Windows.Forms.Button();
+            this.btnSin = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -92,16 +92,7 @@ namespace Activity2_ScientificCalculator
             this.button12 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtField = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graphingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -130,359 +121,371 @@ namespace Activity2_ScientificCalculator
             this.label2.TabIndex = 221;
             this.label2.Text = "F1: Help";
             // 
-            // button61
+            // btnEquals
             // 
-            this.button61.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button61.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button61.Location = new System.Drawing.Point(481, 502);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(77, 50);
-            this.button61.TabIndex = 220;
-            this.button61.Text = "=";
-            this.button61.UseVisualStyleBackColor = false;
+            this.btnEquals.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnEquals.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEquals.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEquals.Location = new System.Drawing.Point(481, 502);
+            this.btnEquals.Name = "btnEquals";
+            this.btnEquals.Size = new System.Drawing.Size(77, 50);
+            this.btnEquals.TabIndex = 220;
+            this.btnEquals.Text = "=";
+            this.btnEquals.UseVisualStyleBackColor = false;
             // 
-            // button62
+            // btnAns
             // 
-            this.button62.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button62.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button62.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button62.Location = new System.Drawing.Point(393, 502);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(82, 50);
-            this.button62.TabIndex = 219;
-            this.button62.Text = "ANS";
-            this.button62.UseVisualStyleBackColor = false;
+            this.btnAns.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAns.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAns.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAns.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAns.Location = new System.Drawing.Point(393, 502);
+            this.btnAns.Name = "btnAns";
+            this.btnAns.Size = new System.Drawing.Size(82, 50);
+            this.btnAns.TabIndex = 219;
+            this.btnAns.Text = "ANS";
+            this.btnAns.UseVisualStyleBackColor = false;
             // 
-            // button63
+            // btnBack
             // 
-            this.button63.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button63.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button63.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button63.Location = new System.Drawing.Point(305, 502);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(82, 50);
-            this.button63.TabIndex = 218;
-            this.button63.Text = "←";
-            this.button63.UseVisualStyleBackColor = false;
+            this.btnBack.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBack.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBack.Location = new System.Drawing.Point(305, 502);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(82, 50);
+            this.btnBack.TabIndex = 218;
+            this.btnBack.Text = "←";
+            this.btnBack.UseVisualStyleBackColor = false;
             // 
-            // button64
+            // btnPercent
             // 
-            this.button64.BackColor = System.Drawing.Color.SlateGray;
-            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button64.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button64.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button64.Location = new System.Drawing.Point(209, 502);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(90, 50);
-            this.button64.TabIndex = 217;
-            this.button64.Text = "%";
-            this.button64.UseVisualStyleBackColor = false;
+            this.btnPercent.BackColor = System.Drawing.Color.SlateGray;
+            this.btnPercent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPercent.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnPercent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPercent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPercent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPercent.Location = new System.Drawing.Point(209, 502);
+            this.btnPercent.Name = "btnPercent";
+            this.btnPercent.Size = new System.Drawing.Size(90, 50);
+            this.btnPercent.TabIndex = 217;
+            this.btnPercent.Text = "%";
+            this.btnPercent.UseVisualStyleBackColor = false;
+            this.btnPercent.Click += new System.EventHandler(this.btnPercent_Click);
             // 
-            // button65
+            // btnDot
             // 
-            this.button65.BackColor = System.Drawing.Color.SlateGray;
-            this.button65.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button65.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button65.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button65.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button65.Location = new System.Drawing.Point(113, 502);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(90, 50);
-            this.button65.TabIndex = 216;
-            this.button65.Text = ".";
-            this.button65.UseVisualStyleBackColor = false;
+            this.btnDot.BackColor = System.Drawing.Color.SlateGray;
+            this.btnDot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDot.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDot.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDot.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDot.Location = new System.Drawing.Point(113, 502);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(90, 50);
+            this.btnDot.TabIndex = 216;
+            this.btnDot.Text = ".";
+            this.btnDot.UseVisualStyleBackColor = false;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
-            // button66
+            // btn0
             // 
-            this.button66.BackColor = System.Drawing.Color.SlateGray;
-            this.button66.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button66.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button66.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button66.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button66.Location = new System.Drawing.Point(17, 502);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(90, 50);
-            this.button66.TabIndex = 215;
-            this.button66.Text = "0";
-            this.button66.UseVisualStyleBackColor = false;
+            this.btn0.BackColor = System.Drawing.Color.SlateGray;
+            this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn0.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn0.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn0.Location = new System.Drawing.Point(17, 502);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(90, 50);
+            this.btn0.TabIndex = 215;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
-            // button55
+            // btnPlus
             // 
-            this.button55.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button55.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button55.Location = new System.Drawing.Point(481, 446);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(77, 50);
-            this.button55.TabIndex = 214;
-            this.button55.Text = "+";
-            this.button55.UseVisualStyleBackColor = false;
+            this.btnPlus.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPlus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPlus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPlus.Location = new System.Drawing.Point(481, 446);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(77, 50);
+            this.btnPlus.TabIndex = 214;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = false;
             // 
-            // button56
+            // btnMult
             // 
-            this.button56.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button56.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button56.Location = new System.Drawing.Point(393, 446);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(82, 50);
-            this.button56.TabIndex = 213;
-            this.button56.Text = "*";
-            this.button56.UseVisualStyleBackColor = false;
+            this.btnMult.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMult.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMult.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMult.Location = new System.Drawing.Point(393, 446);
+            this.btnMult.Name = "btnMult";
+            this.btnMult.Size = new System.Drawing.Size(82, 50);
+            this.btnMult.TabIndex = 213;
+            this.btnMult.Text = "*";
+            this.btnMult.UseVisualStyleBackColor = false;
             // 
-            // button57
+            // btnMin
             // 
-            this.button57.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button57.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button57.Location = new System.Drawing.Point(305, 446);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(82, 50);
-            this.button57.TabIndex = 212;
-            this.button57.Text = "-";
-            this.button57.UseVisualStyleBackColor = false;
+            this.btnMin.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMin.Location = new System.Drawing.Point(305, 446);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(82, 50);
+            this.btnMin.TabIndex = 212;
+            this.btnMin.Text = "-";
+            this.btnMin.UseVisualStyleBackColor = false;
             // 
-            // button58
+            // btn3
             // 
-            this.button58.BackColor = System.Drawing.Color.SlateGray;
-            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button58.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button58.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button58.Location = new System.Drawing.Point(209, 446);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(90, 50);
-            this.button58.TabIndex = 211;
-            this.button58.Text = "3";
-            this.button58.UseVisualStyleBackColor = false;
+            this.btn3.BackColor = System.Drawing.Color.SlateGray;
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn3.Location = new System.Drawing.Point(209, 446);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(90, 50);
+            this.btn3.TabIndex = 211;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
-            // button59
+            // btn2
             // 
-            this.button59.BackColor = System.Drawing.Color.SlateGray;
-            this.button59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button59.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button59.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button59.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button59.Location = new System.Drawing.Point(113, 446);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(90, 50);
-            this.button59.TabIndex = 210;
-            this.button59.Text = "2";
-            this.button59.UseVisualStyleBackColor = false;
+            this.btn2.BackColor = System.Drawing.Color.SlateGray;
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn2.Location = new System.Drawing.Point(113, 446);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(90, 50);
+            this.btn2.TabIndex = 210;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // button60
+            // btn1
             // 
-            this.button60.BackColor = System.Drawing.Color.SlateGray;
-            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button60.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button60.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button60.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button60.Location = new System.Drawing.Point(17, 446);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(90, 50);
-            this.button60.TabIndex = 209;
-            this.button60.Text = "1";
-            this.button60.UseVisualStyleBackColor = false;
+            this.btn1.BackColor = System.Drawing.Color.SlateGray;
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn1.Location = new System.Drawing.Point(17, 446);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(90, 50);
+            this.btn1.TabIndex = 209;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // button49
+            // btnDiv
             // 
-            this.button49.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button49.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button49.Location = new System.Drawing.Point(481, 390);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(77, 50);
-            this.button49.TabIndex = 208;
-            this.button49.Text = "/";
-            this.button49.UseVisualStyleBackColor = false;
+            this.btnDiv.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDiv.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDiv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDiv.Location = new System.Drawing.Point(481, 390);
+            this.btnDiv.Name = "btnDiv";
+            this.btnDiv.Size = new System.Drawing.Size(77, 50);
+            this.btnDiv.TabIndex = 208;
+            this.btnDiv.Text = "/";
+            this.btnDiv.UseVisualStyleBackColor = false;
             // 
-            // button50
+            // btnF
             // 
-            this.button50.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button50.Enabled = false;
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button50.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button50.Location = new System.Drawing.Point(393, 390);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(82, 50);
-            this.button50.TabIndex = 207;
-            this.button50.Text = "F";
-            this.button50.UseVisualStyleBackColor = false;
+            this.btnF.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnF.Enabled = false;
+            this.btnF.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnF.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnF.Location = new System.Drawing.Point(393, 390);
+            this.btnF.Name = "btnF";
+            this.btnF.Size = new System.Drawing.Size(82, 50);
+            this.btnF.TabIndex = 207;
+            this.btnF.Text = "F";
+            this.btnF.UseVisualStyleBackColor = false;
             // 
-            // button51
+            // btnE
             // 
-            this.button51.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button51.Enabled = false;
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button51.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button51.Location = new System.Drawing.Point(305, 390);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(82, 50);
-            this.button51.TabIndex = 206;
-            this.button51.Text = "E";
-            this.button51.UseVisualStyleBackColor = false;
+            this.btnE.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnE.Enabled = false;
+            this.btnE.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnE.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnE.Location = new System.Drawing.Point(305, 390);
+            this.btnE.Name = "btnE";
+            this.btnE.Size = new System.Drawing.Size(82, 50);
+            this.btnE.TabIndex = 206;
+            this.btnE.Text = "E";
+            this.btnE.UseVisualStyleBackColor = false;
             // 
-            // button52
+            // btn6
             // 
-            this.button52.BackColor = System.Drawing.Color.SlateGray;
-            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button52.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button52.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button52.Location = new System.Drawing.Point(209, 390);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(90, 50);
-            this.button52.TabIndex = 205;
-            this.button52.Text = "6";
-            this.button52.UseVisualStyleBackColor = false;
+            this.btn6.BackColor = System.Drawing.Color.SlateGray;
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn6.Location = new System.Drawing.Point(209, 390);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(90, 50);
+            this.btn6.TabIndex = 205;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
-            // button53
+            // btn5
             // 
-            this.button53.BackColor = System.Drawing.Color.SlateGray;
-            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button53.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button53.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button53.Location = new System.Drawing.Point(113, 390);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(90, 50);
-            this.button53.TabIndex = 204;
-            this.button53.Text = "5";
-            this.button53.UseVisualStyleBackColor = false;
+            this.btn5.BackColor = System.Drawing.Color.SlateGray;
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn5.Location = new System.Drawing.Point(113, 390);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(90, 50);
+            this.btn5.TabIndex = 204;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
-            // button54
+            // btn4
             // 
-            this.button54.BackColor = System.Drawing.Color.SlateGray;
-            this.button54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button54.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button54.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button54.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button54.Location = new System.Drawing.Point(17, 390);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(90, 50);
-            this.button54.TabIndex = 203;
-            this.button54.Text = "4";
-            this.button54.UseVisualStyleBackColor = false;
+            this.btn4.BackColor = System.Drawing.Color.SlateGray;
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn4.Location = new System.Drawing.Point(17, 390);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(90, 50);
+            this.btn4.TabIndex = 203;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
-            // button48
+            // btnC
             // 
-            this.button48.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button48.Enabled = false;
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button48.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button48.Location = new System.Drawing.Point(481, 334);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(77, 50);
-            this.button48.TabIndex = 202;
-            this.button48.Text = "C";
-            this.button48.UseVisualStyleBackColor = false;
+            this.btnC.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnC.Enabled = false;
+            this.btnC.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnC.Location = new System.Drawing.Point(481, 334);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(77, 50);
+            this.btnC.TabIndex = 202;
+            this.btnC.Text = "C";
+            this.btnC.UseVisualStyleBackColor = false;
             // 
-            // button47
+            // btnB
             // 
-            this.button47.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button47.Enabled = false;
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button47.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button47.Location = new System.Drawing.Point(393, 334);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(82, 50);
-            this.button47.TabIndex = 201;
-            this.button47.Text = "B";
-            this.button47.UseVisualStyleBackColor = false;
+            this.btnB.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnB.Enabled = false;
+            this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnB.Location = new System.Drawing.Point(393, 334);
+            this.btnB.Name = "btnB";
+            this.btnB.Size = new System.Drawing.Size(82, 50);
+            this.btnB.TabIndex = 201;
+            this.btnB.Text = "B";
+            this.btnB.UseVisualStyleBackColor = false;
             // 
-            // button45
+            // btnA
             // 
-            this.button45.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button45.Enabled = false;
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button45.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button45.Location = new System.Drawing.Point(305, 334);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(82, 50);
-            this.button45.TabIndex = 200;
-            this.button45.Text = "A";
-            this.button45.UseVisualStyleBackColor = false;
+            this.btnA.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnA.Enabled = false;
+            this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnA.Location = new System.Drawing.Point(305, 334);
+            this.btnA.Name = "btnA";
+            this.btnA.Size = new System.Drawing.Size(82, 50);
+            this.btnA.TabIndex = 200;
+            this.btnA.Text = "A";
+            this.btnA.UseVisualStyleBackColor = false;
             // 
-            // button46
+            // btn9
             // 
-            this.button46.BackColor = System.Drawing.Color.SlateGray;
-            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button46.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button46.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button46.Location = new System.Drawing.Point(209, 334);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(90, 50);
-            this.button46.TabIndex = 199;
-            this.button46.Text = "9";
-            this.button46.UseVisualStyleBackColor = false;
+            this.btn9.BackColor = System.Drawing.Color.SlateGray;
+            this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn9.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn9.Location = new System.Drawing.Point(209, 334);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(90, 50);
+            this.btn9.TabIndex = 199;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
-            // button44
+            // btn8
             // 
-            this.button44.BackColor = System.Drawing.Color.SlateGray;
-            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button44.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button44.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button44.Location = new System.Drawing.Point(113, 334);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(90, 50);
-            this.button44.TabIndex = 198;
-            this.button44.Text = "8";
-            this.button44.UseVisualStyleBackColor = false;
+            this.btn8.BackColor = System.Drawing.Color.SlateGray;
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn8.Location = new System.Drawing.Point(113, 334);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(90, 50);
+            this.btn8.TabIndex = 198;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
-            // button43
+            // btn7
             // 
-            this.button43.BackColor = System.Drawing.Color.SlateGray;
-            this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button43.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button43.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button43.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button43.Location = new System.Drawing.Point(17, 334);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(90, 50);
-            this.button43.TabIndex = 197;
-            this.button43.Text = "7";
-            this.button43.UseVisualStyleBackColor = false;
+            this.btn7.BackColor = System.Drawing.Color.SlateGray;
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn7.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn7.Location = new System.Drawing.Point(17, 334);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(90, 50);
+            this.btn7.TabIndex = 197;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
-            // button36
+            // btnDel
             // 
-            this.button36.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button36.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button36.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button36.Location = new System.Drawing.Point(486, 301);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(72, 27);
-            this.button36.TabIndex = 196;
-            this.button36.Text = "DEL";
-            this.button36.UseVisualStyleBackColor = false;
+            this.btnDel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDel.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDel.Location = new System.Drawing.Point(486, 301);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(72, 27);
+            this.btnDel.TabIndex = 196;
+            this.btnDel.Text = "DEL";
+            this.btnDel.UseVisualStyleBackColor = false;
             // 
             // button37
             // 
@@ -510,6 +513,7 @@ namespace Activity2_ScientificCalculator
             this.button38.TabIndex = 194;
             this.button38.Text = "n!";
             this.button38.UseVisualStyleBackColor = false;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // button39
             // 
@@ -523,6 +527,7 @@ namespace Activity2_ScientificCalculator
             this.button39.TabIndex = 193;
             this.button39.Text = "ran";
             this.button39.UseVisualStyleBackColor = false;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
             // button40
             // 
@@ -536,32 +541,35 @@ namespace Activity2_ScientificCalculator
             this.button40.TabIndex = 192;
             this.button40.Text = "∛x";
             this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
-            // button41
+            // btnArccot
             // 
-            this.button41.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button41.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button41.Location = new System.Drawing.Point(95, 301);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(72, 27);
-            this.button41.TabIndex = 191;
-            this.button41.Text = "arccot";
-            this.button41.UseVisualStyleBackColor = false;
+            this.btnArccot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnArccot.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArccot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnArccot.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnArccot.Location = new System.Drawing.Point(95, 301);
+            this.btnArccot.Name = "btnArccot";
+            this.btnArccot.Size = new System.Drawing.Size(72, 27);
+            this.btnArccot.TabIndex = 191;
+            this.btnArccot.Text = "arccot";
+            this.btnArccot.UseVisualStyleBackColor = false;
+            this.btnArccot.Click += new System.EventHandler(this.btnArccot_Click);
             // 
-            // button42
+            // btnCotan
             // 
-            this.button42.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button42.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button42.Location = new System.Drawing.Point(17, 301);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(72, 27);
-            this.button42.TabIndex = 190;
-            this.button42.Text = "cotan";
-            this.button42.UseVisualStyleBackColor = false;
+            this.btnCotan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCotan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCotan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCotan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCotan.Location = new System.Drawing.Point(17, 301);
+            this.btnCotan.Name = "btnCotan";
+            this.btnCotan.Size = new System.Drawing.Size(72, 27);
+            this.btnCotan.TabIndex = 190;
+            this.btnCotan.Text = "cotan";
+            this.btnCotan.UseVisualStyleBackColor = false;
+            this.btnCotan.Click += new System.EventHandler(this.btnCotan_Click);
             // 
             // button29
             // 
@@ -588,6 +596,7 @@ namespace Activity2_ScientificCalculator
             this.button30.TabIndex = 188;
             this.button30.Text = "MS";
             this.button30.UseVisualStyleBackColor = false;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -601,6 +610,7 @@ namespace Activity2_ScientificCalculator
             this.button31.TabIndex = 187;
             this.button31.Text = "1/x";
             this.button31.UseVisualStyleBackColor = false;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -614,6 +624,7 @@ namespace Activity2_ScientificCalculator
             this.button32.TabIndex = 186;
             this.button32.Text = "10ˣ";
             this.button32.UseVisualStyleBackColor = false;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -627,32 +638,35 @@ namespace Activity2_ScientificCalculator
             this.button33.TabIndex = 185;
             this.button33.Text = "√x";
             this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
-            // button34
+            // btnArctan
             // 
-            this.button34.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button34.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button34.Location = new System.Drawing.Point(95, 268);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(72, 27);
-            this.button34.TabIndex = 184;
-            this.button34.Text = "arctan";
-            this.button34.UseVisualStyleBackColor = false;
+            this.btnArctan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnArctan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArctan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnArctan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnArctan.Location = new System.Drawing.Point(95, 268);
+            this.btnArctan.Name = "btnArctan";
+            this.btnArctan.Size = new System.Drawing.Size(72, 27);
+            this.btnArctan.TabIndex = 184;
+            this.btnArctan.Text = "arctan";
+            this.btnArctan.UseVisualStyleBackColor = false;
+            this.btnArctan.Click += new System.EventHandler(this.btnArctan_Click);
             // 
-            // button35
+            // btnTan
             // 
-            this.button35.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button35.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button35.Location = new System.Drawing.Point(17, 268);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(72, 27);
-            this.button35.TabIndex = 183;
-            this.button35.Text = "tan";
-            this.button35.UseVisualStyleBackColor = false;
+            this.btnTan.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTan.Location = new System.Drawing.Point(17, 268);
+            this.btnTan.Name = "btnTan";
+            this.btnTan.Size = new System.Drawing.Size(72, 27);
+            this.btnTan.TabIndex = 183;
+            this.btnTan.Text = "tan";
+            this.btnTan.UseVisualStyleBackColor = false;
+            this.btnTan.Click += new System.EventHandler(this.btnTan_Click);
             // 
             // button19
             // 
@@ -694,6 +708,7 @@ namespace Activity2_ScientificCalculator
             this.button24.TabIndex = 180;
             this.button24.Text = "2ˣ";
             this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -707,6 +722,7 @@ namespace Activity2_ScientificCalculator
             this.button25.TabIndex = 179;
             this.button25.Text = "ln";
             this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -720,32 +736,35 @@ namespace Activity2_ScientificCalculator
             this.button26.TabIndex = 178;
             this.button26.Text = "eˣ";
             this.button26.UseVisualStyleBackColor = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
-            // button27
+            // btnArccos
             // 
-            this.button27.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button27.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button27.Location = new System.Drawing.Point(95, 235);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(72, 27);
-            this.button27.TabIndex = 177;
-            this.button27.Text = "arccos";
-            this.button27.UseVisualStyleBackColor = false;
+            this.btnArccos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnArccos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArccos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnArccos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnArccos.Location = new System.Drawing.Point(95, 235);
+            this.btnArccos.Name = "btnArccos";
+            this.btnArccos.Size = new System.Drawing.Size(72, 27);
+            this.btnArccos.TabIndex = 177;
+            this.btnArccos.Text = "arccos";
+            this.btnArccos.UseVisualStyleBackColor = false;
+            this.btnArccos.Click += new System.EventHandler(this.btnArccos_Click);
             // 
-            // button28
+            // btnCos
             // 
-            this.button28.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button28.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button28.Location = new System.Drawing.Point(17, 235);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(72, 27);
-            this.button28.TabIndex = 176;
-            this.button28.Text = "cos";
-            this.button28.UseVisualStyleBackColor = false;
+            this.btnCos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCos.Location = new System.Drawing.Point(17, 235);
+            this.btnCos.Name = "btnCos";
+            this.btnCos.Size = new System.Drawing.Size(72, 27);
+            this.btnCos.TabIndex = 176;
+            this.btnCos.Text = "cos";
+            this.btnCos.UseVisualStyleBackColor = false;
+            this.btnCos.Click += new System.EventHandler(this.btnCos_Click);
             // 
             // button20
             // 
@@ -759,6 +778,7 @@ namespace Activity2_ScientificCalculator
             this.button20.TabIndex = 175;
             this.button20.Text = ")";
             this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -772,6 +792,7 @@ namespace Activity2_ScientificCalculator
             this.button21.TabIndex = 174;
             this.button21.Text = "(";
             this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -785,6 +806,7 @@ namespace Activity2_ScientificCalculator
             this.button22.TabIndex = 173;
             this.button22.Text = "| x |";
             this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button17
             // 
@@ -798,6 +820,7 @@ namespace Activity2_ScientificCalculator
             this.button17.TabIndex = 172;
             this.button17.Text = "log";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -811,45 +834,49 @@ namespace Activity2_ScientificCalculator
             this.button18.TabIndex = 171;
             this.button18.Text = "logy(X)";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // button16
+            // btnArcsin
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button16.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button16.Location = new System.Drawing.Point(95, 202);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(72, 27);
-            this.button16.TabIndex = 170;
-            this.button16.Text = "arcsin";
-            this.button16.UseVisualStyleBackColor = false;
+            this.btnArcsin.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnArcsin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArcsin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnArcsin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnArcsin.Location = new System.Drawing.Point(95, 202);
+            this.btnArcsin.Name = "btnArcsin";
+            this.btnArcsin.Size = new System.Drawing.Size(72, 27);
+            this.btnArcsin.TabIndex = 170;
+            this.btnArcsin.Text = "arcsin";
+            this.btnArcsin.UseVisualStyleBackColor = false;
+            this.btnArcsin.Click += new System.EventHandler(this.btnArcsin_Click);
             // 
-            // button15
+            // btnSin
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(17, 202);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(72, 27);
-            this.button15.TabIndex = 169;
-            this.button15.Text = "sin";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btnSin.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSin.Location = new System.Drawing.Point(17, 202);
+            this.btnSin.Name = "btnSin";
+            this.btnSin.Size = new System.Drawing.Size(72, 27);
+            this.btnSin.TabIndex = 169;
+            this.btnSin.Text = "sin";
+            this.btnSin.UseVisualStyleBackColor = false;
+            this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
             // 
-            // button13
+            // btnClear
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(486, 144);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(72, 27);
-            this.button13.TabIndex = 168;
-            this.button13.Text = "C";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClear.Location = new System.Drawing.Point(486, 144);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(72, 27);
+            this.btnClear.TabIndex = 168;
+            this.btnClear.Text = "C";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // button14
             // 
@@ -937,125 +964,18 @@ namespace Activity2_ScientificCalculator
             this.checkBox1.Text = "hyp";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtField
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(12, 68);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox1.Size = new System.Drawing.Size(546, 72);
-            this.textBox1.TabIndex = 159;
-            this.textBox1.Text = "0";
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Location = new System.Drawing.Point(507, 37);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(51, 25);
-            this.button9.TabIndex = 158;
-            this.button9.Text = "Bin";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Location = new System.Drawing.Point(450, 37);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(51, 25);
-            this.button6.TabIndex = 157;
-            this.button6.Text = "Oct";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Location = new System.Drawing.Point(393, 37);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(51, 25);
-            this.button7.TabIndex = 156;
-            this.button7.Text = "Dec";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Location = new System.Drawing.Point(336, 37);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(51, 25);
-            this.button8.TabIndex = 155;
-            this.button8.Text = "Hex";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Location = new System.Drawing.Point(266, 37);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(51, 25);
-            this.button5.TabIndex = 154;
-            this.button5.Text = "Grad";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(209, 37);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(51, 25);
-            this.button3.TabIndex = 153;
-            this.button3.Text = "Rad";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(152, 37);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(51, 25);
-            this.button4.TabIndex = 152;
-            this.button4.Text = "Deg";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(69, 37);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(51, 25);
-            this.button2.TabIndex = 151;
-            this.button2.Text = "C";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(12, 37);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 25);
-            this.button1.TabIndex = 150;
-            this.button1.Text = "R";
-            this.button1.UseVisualStyleBackColor = false;
+            this.txtField.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtField.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtField.Location = new System.Drawing.Point(17, 41);
+            this.txtField.Multiline = true;
+            this.txtField.Name = "txtField";
+            this.txtField.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtField.Size = new System.Drawing.Size(546, 72);
+            this.txtField.TabIndex = 159;
+            this.txtField.Text = "0";
+            this.txtField.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // menuStrip1
             // 
@@ -1168,59 +1088,59 @@ namespace Activity2_ScientificCalculator
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(580, 608);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button61);
-            this.Controls.Add(this.button62);
-            this.Controls.Add(this.button63);
-            this.Controls.Add(this.button64);
-            this.Controls.Add(this.button65);
-            this.Controls.Add(this.button66);
-            this.Controls.Add(this.button55);
-            this.Controls.Add(this.button56);
-            this.Controls.Add(this.button57);
-            this.Controls.Add(this.button58);
-            this.Controls.Add(this.button59);
-            this.Controls.Add(this.button60);
-            this.Controls.Add(this.button49);
-            this.Controls.Add(this.button50);
-            this.Controls.Add(this.button51);
-            this.Controls.Add(this.button52);
-            this.Controls.Add(this.button53);
-            this.Controls.Add(this.button54);
-            this.Controls.Add(this.button48);
-            this.Controls.Add(this.button47);
-            this.Controls.Add(this.button45);
-            this.Controls.Add(this.button46);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button43);
-            this.Controls.Add(this.button36);
+            this.Controls.Add(this.btnEquals);
+            this.Controls.Add(this.btnAns);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnPercent);
+            this.Controls.Add(this.btnDot);
+            this.Controls.Add(this.btn0);
+            this.Controls.Add(this.btnPlus);
+            this.Controls.Add(this.btnMult);
+            this.Controls.Add(this.btnMin);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.btnDiv);
+            this.Controls.Add(this.btnF);
+            this.Controls.Add(this.btnE);
+            this.Controls.Add(this.btn6);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btnC);
+            this.Controls.Add(this.btnB);
+            this.Controls.Add(this.btnA);
+            this.Controls.Add(this.btn9);
+            this.Controls.Add(this.btn8);
+            this.Controls.Add(this.btn7);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button38);
             this.Controls.Add(this.button39);
             this.Controls.Add(this.button40);
-            this.Controls.Add(this.button41);
-            this.Controls.Add(this.button42);
+            this.Controls.Add(this.btnArccot);
+            this.Controls.Add(this.btnCotan);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.button30);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
+            this.Controls.Add(this.btnArctan);
+            this.Controls.Add(this.btnTan);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button26);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
+            this.Controls.Add(this.btnArccos);
+            this.Controls.Add(this.btnCos);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button22);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnArcsin);
+            this.Controls.Add(this.btnSin);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
@@ -1229,16 +1149,7 @@ namespace Activity2_ScientificCalculator
             this.Controls.Add(this.button12);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtField);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmScical";
@@ -1255,59 +1166,59 @@ namespace Activity2_ScientificCalculator
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button btnEquals;
+        private System.Windows.Forms.Button btnAns;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnPercent;
+        private System.Windows.Forms.Button btnDot;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btnPlus;
+        private System.Windows.Forms.Button btnMult;
+        private System.Windows.Forms.Button btnMin;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btnDiv;
+        private System.Windows.Forms.Button btnF;
+        private System.Windows.Forms.Button btnE;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Button btnB;
+        private System.Windows.Forms.Button btnA;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button btnArccot;
+        private System.Windows.Forms.Button btnCotan;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button32;
         private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button btnArctan;
+        private System.Windows.Forms.Button btnTan;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button btnArccos;
+        private System.Windows.Forms.Button btnCos;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btnArcsin;
+        private System.Windows.Forms.Button btnSin;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
@@ -1316,16 +1227,7 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtField;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graphingToolStripMenuItem;

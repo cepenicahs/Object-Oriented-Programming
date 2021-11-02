@@ -1,0 +1,16 @@
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.exe
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.deps.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.runtimeconfig.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.runtimeconfig.dev.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\bin\Debug\netcoreapp3.1\Activity2_ScientificCalculator.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.frmScical.resources
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.AssemblyInfo.cs
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity2_ScientificCalculator\Activity2_ScientificCalculator\obj\Debug\netcoreapp3.1\Activity2_ScientificCalculator.genruntimeconfig.cache
