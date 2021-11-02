@@ -146,6 +146,7 @@ namespace Activity2_ScientificCalculator
             this.btnAns.TabIndex = 219;
             this.btnAns.Text = "ANS";
             this.btnAns.UseVisualStyleBackColor = false;
+            this.btnAns.Click += new System.EventHandler(this.btnAns_Click);
             // 
             // btnBack
             // 
@@ -220,6 +221,7 @@ namespace Activity2_ScientificCalculator
             this.btnPlus.TabIndex = 214;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = false;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnMult
             // 
@@ -233,6 +235,7 @@ namespace Activity2_ScientificCalculator
             this.btnMult.TabIndex = 213;
             this.btnMult.Text = "*";
             this.btnMult.UseVisualStyleBackColor = false;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnMin
             // 
@@ -246,6 +249,7 @@ namespace Activity2_ScientificCalculator
             this.btnMin.TabIndex = 212;
             this.btnMin.Text = "-";
             this.btnMin.UseVisualStyleBackColor = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // btn3
             // 
@@ -307,6 +311,7 @@ namespace Activity2_ScientificCalculator
             this.btnDiv.TabIndex = 208;
             this.btnDiv.Text = "/";
             this.btnDiv.UseVisualStyleBackColor = false;
+            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // btnF
             // 

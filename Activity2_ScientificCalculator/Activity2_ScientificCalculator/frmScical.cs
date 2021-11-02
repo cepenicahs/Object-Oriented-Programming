@@ -12,6 +12,9 @@ namespace Activity2_ScientificCalculator
 {
     public partial class frmScical : Form
     {
+        int firstNum;
+        int SecondNum;
+
         public frmScical()
         {
             InitializeComponent();
@@ -397,6 +400,32 @@ namespace Activity2_ScientificCalculator
             }
 
             txtField.Text = txtField.Text + "∑";
+        }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            txtField.Text = txtField.Text + "/";
+        }
+
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            txtField.Text = txtField.Text + "+";
+        }
+
+        private void btnMult_Click(object sender, EventArgs e)
+        {
+            txtField.Text = txtField.Text + "*";
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            txtField.Text = txtField.Text + "-";
+        }
+
+        private void btnAns_Click(object sender, EventArgs e)
+        {
+            txtField.Clear();
+            txtField.Text = "ANS";
         }
     }
 }
