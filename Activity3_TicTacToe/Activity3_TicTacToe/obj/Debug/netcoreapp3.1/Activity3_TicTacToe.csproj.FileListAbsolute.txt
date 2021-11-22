@@ -1,0 +1,17 @@
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.exe
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.deps.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.runtimeconfig.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.runtimeconfig.dev.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\bin\Debug\netcoreapp3.1\Activity3_TicTacToe.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.Form1.resources
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.AssemblyInfo.cs
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.genruntimeconfig.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity3_TicTacToe\Activity3_TicTacToe\obj\Debug\netcoreapp3.1\Activity3_TicTacToe.Properties.Resources.resources
