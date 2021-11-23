@@ -34,15 +34,15 @@ namespace Activity3_TicTacToe
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn11 = new System.Windows.Forms.Button();
+            this.btn12 = new System.Windows.Forms.Button();
+            this.btn21 = new System.Windows.Forms.Button();
+            this.btn22 = new System.Windows.Forms.Button();
+            this.btn13 = new System.Windows.Forms.Button();
+            this.btn23 = new System.Windows.Forms.Button();
+            this.btn31 = new System.Windows.Forms.Button();
+            this.btn32 = new System.Windows.Forms.Button();
+            this.btn33 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
@@ -60,7 +60,7 @@ namespace Activity3_TicTacToe
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.menuStrip1.Location = new System.Drawing.Point(0, 460);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 501);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(452, 23);
             this.menuStrip1.TabIndex = 0;
@@ -84,6 +84,7 @@ namespace Activity3_TicTacToe
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
             this.newGameToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.newGameToolStripMenuItem.Text = "New Game";
+            this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -92,6 +93,7 @@ namespace Activity3_TicTacToe
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -99,127 +101,137 @@ namespace Activity3_TicTacToe
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(51, 19);
             this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
-            // button1
+            // btn11
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(44, 111);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 95);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn11.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn11.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn11.ForeColor = System.Drawing.Color.Black;
+            this.btn11.Location = new System.Drawing.Point(44, 111);
+            this.btn11.Name = "btn11";
+            this.btn11.Size = new System.Drawing.Size(110, 95);
+            this.btn11.TabIndex = 2;
+            this.btn11.UseVisualStyleBackColor = false;
+            this.btn11.Click += new System.EventHandler(this.button_click);
             // 
-            // button2
+            // btn12
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(171, 111);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 95);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn12.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn12.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn12.ForeColor = System.Drawing.Color.Black;
+            this.btn12.Location = new System.Drawing.Point(171, 111);
+            this.btn12.Name = "btn12";
+            this.btn12.Size = new System.Drawing.Size(110, 95);
+            this.btn12.TabIndex = 3;
+            this.btn12.UseVisualStyleBackColor = false;
+            this.btn12.Click += new System.EventHandler(this.button_click);
             // 
-            // button3
+            // btn21
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(44, 221);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 95);
-            this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn21.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn21.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn21.ForeColor = System.Drawing.Color.Black;
+            this.btn21.Location = new System.Drawing.Point(44, 221);
+            this.btn21.Name = "btn21";
+            this.btn21.Size = new System.Drawing.Size(110, 95);
+            this.btn21.TabIndex = 4;
+            this.btn21.UseVisualStyleBackColor = false;
+            this.btn21.Click += new System.EventHandler(this.button_click);
             // 
-            // button4
+            // btn22
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(171, 221);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(110, 95);
-            this.button4.TabIndex = 6;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn22.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn22.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn22.ForeColor = System.Drawing.Color.Black;
+            this.btn22.Location = new System.Drawing.Point(171, 221);
+            this.btn22.Name = "btn22";
+            this.btn22.Size = new System.Drawing.Size(110, 95);
+            this.btn22.TabIndex = 6;
+            this.btn22.UseVisualStyleBackColor = false;
+            this.btn22.Click += new System.EventHandler(this.button_click);
             // 
-            // button5
+            // btn13
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(298, 111);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(110, 95);
-            this.button5.TabIndex = 5;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn13.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn13.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn13.ForeColor = System.Drawing.Color.Black;
+            this.btn13.Location = new System.Drawing.Point(298, 111);
+            this.btn13.Name = "btn13";
+            this.btn13.Size = new System.Drawing.Size(110, 95);
+            this.btn13.TabIndex = 5;
+            this.btn13.UseVisualStyleBackColor = false;
+            this.btn13.Click += new System.EventHandler(this.button_click);
             // 
-            // button6
+            // btn23
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(298, 221);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(110, 95);
-            this.button6.TabIndex = 7;
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn23.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn23.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn23.ForeColor = System.Drawing.Color.Black;
+            this.btn23.Location = new System.Drawing.Point(298, 221);
+            this.btn23.Name = "btn23";
+            this.btn23.Size = new System.Drawing.Size(110, 95);
+            this.btn23.TabIndex = 7;
+            this.btn23.UseVisualStyleBackColor = false;
+            this.btn23.Click += new System.EventHandler(this.button_click);
             // 
-            // button7
+            // btn31
             // 
-            this.button7.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(44, 335);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(110, 95);
-            this.button7.TabIndex = 8;
-            this.button7.UseVisualStyleBackColor = false;
+            this.btn31.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn31.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn31.ForeColor = System.Drawing.Color.Black;
+            this.btn31.Location = new System.Drawing.Point(44, 335);
+            this.btn31.Name = "btn31";
+            this.btn31.Size = new System.Drawing.Size(110, 95);
+            this.btn31.TabIndex = 8;
+            this.btn31.UseVisualStyleBackColor = false;
+            this.btn31.Click += new System.EventHandler(this.button_click);
             // 
-            // button8
+            // btn32
             // 
-            this.button8.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(171, 335);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(110, 95);
-            this.button8.TabIndex = 9;
-            this.button8.UseVisualStyleBackColor = false;
+            this.btn32.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn32.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn32.ForeColor = System.Drawing.Color.Black;
+            this.btn32.Location = new System.Drawing.Point(171, 335);
+            this.btn32.Name = "btn32";
+            this.btn32.Size = new System.Drawing.Size(110, 95);
+            this.btn32.TabIndex = 9;
+            this.btn32.UseVisualStyleBackColor = false;
+            this.btn32.Click += new System.EventHandler(this.button_click);
             // 
-            // button9
+            // btn33
             // 
-            this.button9.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(298, 335);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(110, 95);
-            this.button9.TabIndex = 10;
-            this.button9.UseVisualStyleBackColor = false;
+            this.btn33.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn33.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn33.ForeColor = System.Drawing.Color.Black;
+            this.btn33.Location = new System.Drawing.Point(298, 335);
+            this.btn33.Name = "btn33";
+            this.btn33.Size = new System.Drawing.Size(110, 95);
+            this.btn33.TabIndex = 10;
+            this.btn33.UseVisualStyleBackColor = false;
+            this.btn33.Click += new System.EventHandler(this.button_click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Activity3_TicTacToe.Properties.Resources.d9afb2f0c922f34cb6ae8ad219f53ca3;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(452, 392);
             this.pictureBox1.TabIndex = 11;
@@ -239,25 +251,27 @@ namespace Activity3_TicTacToe
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(452, 483);
+            this.ClientSize = new System.Drawing.Size(452, 524);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn33);
+            this.Controls.Add(this.btn32);
+            this.Controls.Add(this.btn31);
+            this.Controls.Add(this.btn23);
+            this.Controls.Add(this.btn22);
+            this.Controls.Add(this.btn13);
+            this.Controls.Add(this.btn21);
+            this.Controls.Add(this.btn12);
+            this.Controls.Add(this.btn11);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TIC TAC TOE";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -273,15 +287,15 @@ namespace Activity3_TicTacToe
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn11;
+        private System.Windows.Forms.Button btn12;
+        private System.Windows.Forms.Button btn21;
+        private System.Windows.Forms.Button btn22;
+        private System.Windows.Forms.Button btn13;
+        private System.Windows.Forms.Button btn23;
+        private System.Windows.Forms.Button btn31;
+        private System.Windows.Forms.Button btn32;
+        private System.Windows.Forms.Button btn33;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

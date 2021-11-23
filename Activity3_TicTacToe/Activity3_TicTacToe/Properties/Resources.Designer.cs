@@ -61,6 +61,15 @@ namespace Activity3_TicTacToe.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream BGM {
+            get {
+                return ResourceManager.GetStream("BGM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap d9afb2f0c922f34cb6ae8ad219f53ca3 {

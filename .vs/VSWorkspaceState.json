@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Activity3_TicTacToe",
+    "\\Activity3_TicTacToe\\Activity3_TicTacToe"
   ],
+  "SelectedNode": "\\Activity3_TicTacToe\\Activity3_TicTacToe\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
