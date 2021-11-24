@@ -120,7 +120,7 @@ namespace Activity4_ContactTracing
                 }
                 sw.WriteLine("\n////////////////////////////////////////////////////");
 
-                MessageBox.Show("Thank you for your response.", "Response Recorded.");
+                MessageBox.Show("Thank you for your response.", "Response Recorded.", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 clearAll();
             }
         }
@@ -203,6 +203,22 @@ namespace Activity4_ContactTracing
             {
                 chkContactYes.Checked = false;
             }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clearAll();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This application is for contact tracing. Contact tracing is the process of identifying all people that a COVID-19 patient has come in contact with in the last two weeks. Help us monitor COVID19 by filling out the form.\n\nCreated by: Nicah S. Cepe", "ITRACE", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
     }
 }
