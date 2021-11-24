@@ -117,8 +117,9 @@ namespace Activity4_ContactTracing
                     sw.WriteLine("No\n");
                 }
                 sw.WriteLine("\n////////////////////////////////////////////////////");
+
                 MessageBox.Show("Thank you for your response.", "Response Recorded.");
-                clearAll(); 
+                clearAll();
             }
         }
 

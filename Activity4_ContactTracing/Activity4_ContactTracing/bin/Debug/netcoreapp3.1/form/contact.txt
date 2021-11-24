@@ -1,36 +1,19 @@
-This
-is Extra
-Text
-This
-is Extra
-Text
-This
-is Extra
-Text
 
-Full Name: Nicah S. Cepe
-Contact Number: 09176363174
+Full Name: 
+Contact Number: 
 
-Address: L7 B20 Cabuyao
+Address: 
 
-Email: cepenicah@gmail.com
+Email: 
 
 Date: Wednesday, 24 November 2021
 
 Did you have any of the following COVID19 symptoms for the past few weeks?
 
 Fever: 
-No
-
 Cough: 
-No
-
 Tiredness: 
-No
-
 Loss of taste and smell: 
-No
-
 Did you have a close contact to a person who is asymptomatic or tested positive in COVID19 for the past few weeks?
-No
 
+////////////////////////////////////////////////////
