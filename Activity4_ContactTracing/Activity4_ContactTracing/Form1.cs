@@ -67,56 +67,56 @@ namespace Activity4_ContactTracing
             using (StreamWriter sw = File.AppendText(path))
             {
                 sw.WriteLine("\nFull Name: " + txtFN.Text);
-                sw.WriteLine("Contact Number: " + txtCN.Text + "\n");
-                sw.WriteLine("Address: " + txtAdd.Text + "\n");
+                sw.WriteLine("Contact Number: " + txtCN.Text);
+                sw.WriteLine("Address: " + txtAdd.Text);
                 sw.WriteLine("Email: " + txtEmail.Text + "\n");
-                sw.WriteLine("Date: " + dateTimePicker1.Text + "\n");
-                sw.WriteLine("Did you have any of the following COVID19 symptoms for the past few weeks?\n");
+                sw.WriteLine("Date: " + dateTimePicker1.Text);
+                sw.WriteLine("Did you have any of the following COVID19 symptoms for the past few weeks?");
                 sw.WriteLine("Fever: ");
                 if (chkFeverYes.Checked)
                 {
-                    sw.WriteLine("Yes\n");
+                    sw.WriteLine("Yes");
                 }
                 else if (chkFeverNo.Checked)
                 {
-                    sw.WriteLine("No\n");
+                    sw.WriteLine("No");
                 }
                 sw.WriteLine("Cough: ");
                 if (chkCoughYes.Checked)
                 {
-                    sw.WriteLine("Yes\n");
+                    sw.WriteLine("Yes");
                 }
                 else if (chkCoughNo.Checked)
                 {
-                    sw.WriteLine("No\n");
+                    sw.WriteLine("No");
                 }
                 sw.WriteLine("Tiredness: ");
                 if (chkTiredYes.Checked)
                 {
-                    sw.WriteLine("Yes\n");
+                    sw.WriteLine("Yes");
                 }
                 else if (chkTiredNo.Checked)
                 {
-                    sw.WriteLine("No\n");
+                    sw.WriteLine("No");
                 }
                 sw.WriteLine("Loss of taste and smell: ");
                 if (chkTasteYes.Checked)
                 {
-                    sw.WriteLine("Yes\n");
+                    sw.WriteLine("Yes");
                 }
                 else if (chkTasteNo.Checked)
                 {
-                    sw.WriteLine("No\n");
+                    sw.WriteLine("No");
                 }
 
                 sw.WriteLine("Did you have a close contact to a person who is asymptomatic or tested positive in COVID19 for the past few weeks?");
                 if (chkContactYes.Checked)
                 {
-                    sw.WriteLine("Yes\n");
+                    sw.WriteLine("Yes");
                 }
                 else if (chkContactNo.Checked)
                 {
-                    sw.WriteLine("No\n");
+                    sw.WriteLine("No");
                 }
                 sw.WriteLine("\n////////////////////////////////////////////////////");
 
