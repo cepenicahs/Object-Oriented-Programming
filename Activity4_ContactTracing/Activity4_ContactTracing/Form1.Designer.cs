@@ -152,7 +152,6 @@ namespace Activity4_ContactTracing
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(294, 29);
             this.txtEmail.TabIndex = 4;
-            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -170,7 +169,6 @@ namespace Activity4_ContactTracing
             this.txtAdd.Name = "txtAdd";
             this.txtAdd.Size = new System.Drawing.Size(294, 93);
             this.txtAdd.TabIndex = 3;
-            this.txtAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -187,7 +185,6 @@ namespace Activity4_ContactTracing
             this.txtCN.Name = "txtCN";
             this.txtCN.Size = new System.Drawing.Size(294, 29);
             this.txtCN.TabIndex = 2;
-            this.txtCN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -212,7 +209,6 @@ namespace Activity4_ContactTracing
             this.txtFN.Name = "txtFN";
             this.txtFN.Size = new System.Drawing.Size(294, 29);
             this.txtFN.TabIndex = 1;
-            this.txtFN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtFN.TextChanged += new System.EventHandler(this.txtFN_TextChanged);
             // 
             // label1

@@ -55,6 +55,8 @@ namespace Activity4_ContactTracing
             chkTasteYes.Checked = false;
             chkTiredNo.Checked = false;
             chkTiredYes.Checked = false;
+            tabControl1.SelectedTab = tabPage1;
+            txtFN.Focus();
 
         }
 

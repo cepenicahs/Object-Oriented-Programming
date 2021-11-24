@@ -17,3 +17,22 @@ Loss of taste and smell:
 Did you have a close contact to a person who is asymptomatic or tested positive in COVID19 for the past few weeks?
 
 ////////////////////////////////////////////////////
+
+Full Name: 
+Contact Number: 
+
+Address: 
+
+Email: 
+
+Date: Wednesday, 24 November 2021
+
+Did you have any of the following COVID19 symptoms for the past few weeks?
+
+Fever: 
+Cough: 
+Tiredness: 
+Loss of taste and smell: 
+Did you have a close contact to a person who is asymptomatic or tested positive in COVID19 for the past few weeks?
+
+////////////////////////////////////////////////////
