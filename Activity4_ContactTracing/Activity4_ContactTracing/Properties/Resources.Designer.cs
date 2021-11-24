@@ -81,6 +81,15 @@ namespace Activity4_ContactTracing.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string doc {
+            get {
+                return ResourceManager.GetString("doc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap ITRACE {

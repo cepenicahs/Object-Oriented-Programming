@@ -213,6 +213,7 @@ namespace Activity4_ContactTracing
             this.txtFN.Size = new System.Drawing.Size(294, 29);
             this.txtFN.TabIndex = 1;
             this.txtFN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtFN.TextChanged += new System.EventHandler(this.txtFN_TextChanged);
             // 
             // label1
             // 
@@ -252,6 +253,7 @@ namespace Activity4_ContactTracing
             this.btnSubmit.TabIndex = 17;
             this.btnSubmit.Text = "SUBMIT";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // groupBox2
             // 
@@ -263,7 +265,7 @@ namespace Activity4_ContactTracing
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Did you have a close contact to a person who is asymptomatic or tested positive i" +
-    "n COVID19?";
+    "n COVID19 for the past few weeks?";
             // 
             // chkContactNo
             // 
@@ -274,6 +276,7 @@ namespace Activity4_ContactTracing
             this.chkContactNo.TabIndex = 3;
             this.chkContactNo.Text = "No";
             this.chkContactNo.UseVisualStyleBackColor = true;
+            this.chkContactNo.CheckedChanged += new System.EventHandler(this.chkContactNo_CheckedChanged);
             // 
             // chkContactYes
             // 
@@ -284,6 +287,7 @@ namespace Activity4_ContactTracing
             this.chkContactYes.TabIndex = 2;
             this.chkContactYes.Text = "Yes";
             this.chkContactYes.UseVisualStyleBackColor = true;
+            this.chkContactYes.CheckedChanged += new System.EventHandler(this.chkContactYes_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -343,6 +347,7 @@ namespace Activity4_ContactTracing
             this.chkTasteNo.TabIndex = 10;
             this.chkTasteNo.Text = "No";
             this.chkTasteNo.UseVisualStyleBackColor = true;
+            this.chkTasteNo.CheckedChanged += new System.EventHandler(this.chkTasteNo_CheckedChanged);
             // 
             // chkTasteYes
             // 
@@ -353,6 +358,7 @@ namespace Activity4_ContactTracing
             this.chkTasteYes.TabIndex = 9;
             this.chkTasteYes.Text = "Yes";
             this.chkTasteYes.UseVisualStyleBackColor = true;
+            this.chkTasteYes.CheckedChanged += new System.EventHandler(this.chkTasteYes_CheckedChanged);
             // 
             // chkTiredNo
             // 
@@ -363,6 +369,7 @@ namespace Activity4_ContactTracing
             this.chkTiredNo.TabIndex = 8;
             this.chkTiredNo.Text = "No";
             this.chkTiredNo.UseVisualStyleBackColor = true;
+            this.chkTiredNo.CheckedChanged += new System.EventHandler(this.chkTiredNo_CheckedChanged);
             // 
             // chkTiredYes
             // 
@@ -373,6 +380,7 @@ namespace Activity4_ContactTracing
             this.chkTiredYes.TabIndex = 7;
             this.chkTiredYes.Text = "Yes";
             this.chkTiredYes.UseVisualStyleBackColor = true;
+            this.chkTiredYes.CheckedChanged += new System.EventHandler(this.chkTiredYes_CheckedChanged);
             // 
             // chkCoughNo
             // 
@@ -383,6 +391,7 @@ namespace Activity4_ContactTracing
             this.chkCoughNo.TabIndex = 6;
             this.chkCoughNo.Text = "No";
             this.chkCoughNo.UseVisualStyleBackColor = true;
+            this.chkCoughNo.CheckedChanged += new System.EventHandler(this.chkCoughNo_CheckedChanged);
             // 
             // chkCoughYes
             // 
@@ -393,6 +402,7 @@ namespace Activity4_ContactTracing
             this.chkCoughYes.TabIndex = 5;
             this.chkCoughYes.Text = "Yes";
             this.chkCoughYes.UseVisualStyleBackColor = true;
+            this.chkCoughYes.CheckedChanged += new System.EventHandler(this.chkCoughYes_CheckedChanged);
             // 
             // label8
             // 
@@ -412,6 +422,7 @@ namespace Activity4_ContactTracing
             this.chkFeverNo.TabIndex = 3;
             this.chkFeverNo.Text = "No";
             this.chkFeverNo.UseVisualStyleBackColor = true;
+            this.chkFeverNo.CheckedChanged += new System.EventHandler(this.chkFeverNo_CheckedChanged);
             // 
             // chkFeverYes
             // 
@@ -422,6 +433,7 @@ namespace Activity4_ContactTracing
             this.chkFeverYes.TabIndex = 2;
             this.chkFeverYes.Text = "Yes";
             this.chkFeverYes.UseVisualStyleBackColor = true;
+            this.chkFeverYes.CheckedChanged += new System.EventHandler(this.chkFeverYes_CheckedChanged);
             // 
             // label6
             // 
