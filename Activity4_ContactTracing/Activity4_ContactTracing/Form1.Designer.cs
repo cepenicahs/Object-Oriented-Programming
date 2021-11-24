@@ -45,6 +45,7 @@ namespace Activity4_ContactTracing
             this.txtFN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.chkContactNo = new System.Windows.Forms.CheckBox();
             this.chkContactYes = new System.Windows.Forms.CheckBox();
@@ -62,7 +63,6 @@ namespace Activity4_ContactTracing
             this.chkFeverNo = new System.Windows.Forms.CheckBox();
             this.chkFeverYes = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnSubmit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -128,13 +128,14 @@ namespace Activity4_ContactTracing
             this.btnNext.TabIndex = 16;
             this.btnNext.Text = "NEXT";
             this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(155, 290);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 29);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dateTimePicker1.TabIndex = 5;
             // 
             // label7
             // 
@@ -150,7 +151,7 @@ namespace Activity4_ContactTracing
             this.txtEmail.Location = new System.Drawing.Point(155, 239);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(294, 29);
-            this.txtEmail.TabIndex = 8;
+            this.txtEmail.TabIndex = 4;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
@@ -168,7 +169,7 @@ namespace Activity4_ContactTracing
             this.txtAdd.Multiline = true;
             this.txtAdd.Name = "txtAdd";
             this.txtAdd.Size = new System.Drawing.Size(294, 93);
-            this.txtAdd.TabIndex = 6;
+            this.txtAdd.TabIndex = 3;
             this.txtAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
@@ -185,7 +186,7 @@ namespace Activity4_ContactTracing
             this.txtCN.Location = new System.Drawing.Point(155, 79);
             this.txtCN.Name = "txtCN";
             this.txtCN.Size = new System.Drawing.Size(294, 29);
-            this.txtCN.TabIndex = 4;
+            this.txtCN.TabIndex = 2;
             this.txtCN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
@@ -235,6 +236,22 @@ namespace Activity4_ContactTracing
             this.tabPage2.Size = new System.Drawing.Size(493, 418);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Covid Exposure";
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSubmit.FlatAppearance.BorderSize = 0;
+            this.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Location = new System.Drawing.Point(355, 359);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(119, 44);
+            this.btnSubmit.TabIndex = 17;
+            this.btnSubmit.Text = "SUBMIT";
+            this.btnSubmit.UseVisualStyleBackColor = false;
             // 
             // groupBox2
             // 
@@ -413,22 +430,6 @@ namespace Activity4_ContactTracing
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 21);
             this.label6.TabIndex = 1;
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSubmit.FlatAppearance.BorderSize = 0;
-            this.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmit.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(355, 359);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(119, 44);
-            this.btnSubmit.TabIndex = 17;
-            this.btnSubmit.Text = "SUBMIT";
-            this.btnSubmit.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

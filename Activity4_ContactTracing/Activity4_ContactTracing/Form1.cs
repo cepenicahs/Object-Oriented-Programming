@@ -26,5 +26,10 @@ namespace Activity4_ContactTracing
         {
 
         }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage2;
+        }
     }
 }
