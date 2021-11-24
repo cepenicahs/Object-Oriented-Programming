@@ -1,0 +1,17 @@
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.exe
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.deps.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.runtimeconfig.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.runtimeconfig.dev.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\bin\Debug\netcoreapp3.1\Activity4_ContactTracing.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.Form1.resources
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.Properties.Resources.resources
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.AssemblyInfo.cs
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Activity4_ContactTracing\Activity4_ContactTracing\obj\Debug\netcoreapp3.1\Activity4_ContactTracing.genruntimeconfig.cache
