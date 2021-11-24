@@ -32,37 +32,37 @@ namespace Activity4_ContactTracing
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtAdd = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCN = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFN = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.chkContactNo = new System.Windows.Forms.CheckBox();
+            this.chkContactYes = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.chkTasteNo = new System.Windows.Forms.CheckBox();
+            this.chkTasteYes = new System.Windows.Forms.CheckBox();
+            this.chkTiredNo = new System.Windows.Forms.CheckBox();
+            this.chkTiredYes = new System.Windows.Forms.CheckBox();
+            this.chkCoughNo = new System.Windows.Forms.CheckBox();
+            this.chkCoughYes = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chkFeverNo = new System.Windows.Forms.CheckBox();
+            this.chkFeverYes = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -93,18 +93,18 @@ namespace Activity4_ContactTracing
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage1.Controls.Add(this.btnNext);
             this.tabPage1.Controls.Add(this.dateTimePicker1);
             this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.textBox4);
+            this.tabPage1.Controls.Add(this.txtEmail);
             this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.textBox3);
+            this.tabPage1.Controls.Add(this.txtAdd);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.txtCN);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.txtFN);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 30);
             this.tabPage1.Name = "tabPage1";
@@ -113,21 +113,21 @@ namespace Activity4_ContactTracing
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Personal Information";
             // 
-            // button3
+            // btnNext
             // 
-            this.button3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(330, 341);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 44);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "NEXT";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnNext.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNext.FlatAppearance.BorderSize = 0;
+            this.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNext.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnNext.ForeColor = System.Drawing.Color.White;
+            this.btnNext.Location = new System.Drawing.Point(354, 349);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(119, 44);
+            this.btnNext.TabIndex = 16;
+            this.btnNext.Text = "NEXT";
+            this.btnNext.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -145,13 +145,13 @@ namespace Activity4_ContactTracing
             this.label7.TabIndex = 9;
             this.label7.Text = "Date:";
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(155, 239);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(294, 29);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtEmail.Location = new System.Drawing.Point(155, 239);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(294, 29);
+            this.txtEmail.TabIndex = 8;
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -162,14 +162,14 @@ namespace Activity4_ContactTracing
             this.label5.TabIndex = 7;
             this.label5.Text = "Email Address:";
             // 
-            // textBox3
+            // txtAdd
             // 
-            this.textBox3.Location = new System.Drawing.Point(155, 128);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(294, 93);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtAdd.Location = new System.Drawing.Point(155, 128);
+            this.txtAdd.Multiline = true;
+            this.txtAdd.Name = "txtAdd";
+            this.txtAdd.Size = new System.Drawing.Size(294, 93);
+            this.txtAdd.TabIndex = 6;
+            this.txtAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -180,13 +180,13 @@ namespace Activity4_ContactTracing
             this.label4.TabIndex = 5;
             this.label4.Text = "Address:";
             // 
-            // textBox2
+            // txtCN
             // 
-            this.textBox2.Location = new System.Drawing.Point(155, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(294, 29);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCN.Location = new System.Drawing.Point(155, 79);
+            this.txtCN.Name = "txtCN";
+            this.txtCN.Size = new System.Drawing.Size(294, 29);
+            this.txtCN.TabIndex = 4;
+            this.txtCN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -205,13 +205,13 @@ namespace Activity4_ContactTracing
             this.label2.Size = new System.Drawing.Size(0, 21);
             this.label2.TabIndex = 2;
             // 
-            // textBox1
+            // txtFN
             // 
-            this.textBox1.Location = new System.Drawing.Point(155, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(294, 29);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtFN.Location = new System.Drawing.Point(155, 31);
+            this.txtFN.Name = "txtFN";
+            this.txtFN.Size = new System.Drawing.Size(294, 29);
+            this.txtFN.TabIndex = 1;
+            this.txtFN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
@@ -224,8 +224,8 @@ namespace Activity4_ContactTracing
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage2.Controls.Add(this.btnSubmit);
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Controls.Add(this.groupBox1);
             this.tabPage2.Controls.Add(this.label6);
@@ -236,26 +236,10 @@ namespace Activity4_ContactTracing
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Covid Exposure";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(345, 359);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 44);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "SUBMIT";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkBox15);
-            this.groupBox2.Controls.Add(this.checkBox16);
+            this.groupBox2.Controls.Add(this.chkContactNo);
+            this.groupBox2.Controls.Add(this.chkContactYes);
             this.groupBox2.Location = new System.Drawing.Point(18, 248);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(446, 105);
@@ -264,40 +248,40 @@ namespace Activity4_ContactTracing
             this.groupBox2.Text = "Did you have a close contact to a person who is asymptomatic or tested positive i" +
     "n COVID19?";
             // 
-            // checkBox15
+            // chkContactNo
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(254, 53);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(50, 25);
-            this.checkBox15.TabIndex = 3;
-            this.checkBox15.Text = "No";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chkContactNo.AutoSize = true;
+            this.chkContactNo.Location = new System.Drawing.Point(254, 53);
+            this.chkContactNo.Name = "chkContactNo";
+            this.chkContactNo.Size = new System.Drawing.Size(50, 25);
+            this.chkContactNo.TabIndex = 3;
+            this.chkContactNo.Text = "No";
+            this.chkContactNo.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // chkContactYes
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(196, 53);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(52, 25);
-            this.checkBox16.TabIndex = 2;
-            this.checkBox16.Text = "Yes";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.chkContactYes.AutoSize = true;
+            this.chkContactYes.Location = new System.Drawing.Point(196, 53);
+            this.chkContactYes.Name = "chkContactYes";
+            this.chkContactYes.Size = new System.Drawing.Size(52, 25);
+            this.chkContactYes.TabIndex = 2;
+            this.chkContactYes.Text = "Yes";
+            this.chkContactYes.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox4);
+            this.groupBox1.Controls.Add(this.chkTasteNo);
+            this.groupBox1.Controls.Add(this.chkTasteYes);
+            this.groupBox1.Controls.Add(this.chkTiredNo);
+            this.groupBox1.Controls.Add(this.chkTiredYes);
+            this.groupBox1.Controls.Add(this.chkCoughNo);
+            this.groupBox1.Controls.Add(this.chkCoughYes);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.chkFeverNo);
+            this.groupBox1.Controls.Add(this.chkFeverYes);
             this.groupBox1.Location = new System.Drawing.Point(18, 15);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(446, 227);
@@ -333,65 +317,65 @@ namespace Activity4_ContactTracing
             this.label9.TabIndex = 11;
             this.label9.Text = "cough";
             // 
-            // checkBox7
+            // chkTasteNo
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(254, 146);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(50, 25);
-            this.checkBox7.TabIndex = 10;
-            this.checkBox7.Text = "No";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.chkTasteNo.AutoSize = true;
+            this.chkTasteNo.Location = new System.Drawing.Point(254, 146);
+            this.chkTasteNo.Name = "chkTasteNo";
+            this.chkTasteNo.Size = new System.Drawing.Size(50, 25);
+            this.chkTasteNo.TabIndex = 10;
+            this.chkTasteNo.Text = "No";
+            this.chkTasteNo.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // chkTasteYes
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(196, 146);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(52, 25);
-            this.checkBox8.TabIndex = 9;
-            this.checkBox8.Text = "Yes";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chkTasteYes.AutoSize = true;
+            this.chkTasteYes.Location = new System.Drawing.Point(196, 146);
+            this.chkTasteYes.Name = "chkTasteYes";
+            this.chkTasteYes.Size = new System.Drawing.Size(52, 25);
+            this.chkTasteYes.TabIndex = 9;
+            this.chkTasteYes.Text = "Yes";
+            this.chkTasteYes.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // chkTiredNo
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(254, 115);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(50, 25);
-            this.checkBox5.TabIndex = 8;
-            this.checkBox5.Text = "No";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkTiredNo.AutoSize = true;
+            this.chkTiredNo.Location = new System.Drawing.Point(254, 115);
+            this.chkTiredNo.Name = "chkTiredNo";
+            this.chkTiredNo.Size = new System.Drawing.Size(50, 25);
+            this.chkTiredNo.TabIndex = 8;
+            this.chkTiredNo.Text = "No";
+            this.chkTiredNo.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // chkTiredYes
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(196, 115);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(52, 25);
-            this.checkBox6.TabIndex = 7;
-            this.checkBox6.Text = "Yes";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkTiredYes.AutoSize = true;
+            this.chkTiredYes.Location = new System.Drawing.Point(196, 115);
+            this.chkTiredYes.Name = "chkTiredYes";
+            this.chkTiredYes.Size = new System.Drawing.Size(52, 25);
+            this.chkTiredYes.TabIndex = 7;
+            this.chkTiredYes.Text = "Yes";
+            this.chkTiredYes.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkCoughNo
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(254, 84);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(50, 25);
-            this.checkBox3.TabIndex = 6;
-            this.checkBox3.Text = "No";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkCoughNo.AutoSize = true;
+            this.chkCoughNo.Location = new System.Drawing.Point(254, 84);
+            this.chkCoughNo.Name = "chkCoughNo";
+            this.chkCoughNo.Size = new System.Drawing.Size(50, 25);
+            this.chkCoughNo.TabIndex = 6;
+            this.chkCoughNo.Text = "No";
+            this.chkCoughNo.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // chkCoughYes
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(196, 84);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(52, 25);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.Text = "Yes";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkCoughYes.AutoSize = true;
+            this.chkCoughYes.Location = new System.Drawing.Point(196, 84);
+            this.chkCoughYes.Name = "chkCoughYes";
+            this.chkCoughYes.Size = new System.Drawing.Size(52, 25);
+            this.chkCoughYes.TabIndex = 5;
+            this.chkCoughYes.Text = "Yes";
+            this.chkCoughYes.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -402,25 +386,25 @@ namespace Activity4_ContactTracing
             this.label8.TabIndex = 4;
             this.label8.Text = "fever";
             // 
-            // checkBox2
+            // chkFeverNo
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(254, 53);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(50, 25);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "No";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkFeverNo.AutoSize = true;
+            this.chkFeverNo.Location = new System.Drawing.Point(254, 53);
+            this.chkFeverNo.Name = "chkFeverNo";
+            this.chkFeverNo.Size = new System.Drawing.Size(50, 25);
+            this.chkFeverNo.TabIndex = 3;
+            this.chkFeverNo.Text = "No";
+            this.chkFeverNo.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chkFeverYes
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(196, 53);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(52, 25);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Yes";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkFeverYes.AutoSize = true;
+            this.chkFeverYes.Location = new System.Drawing.Point(196, 53);
+            this.chkFeverYes.Name = "chkFeverYes";
+            this.chkFeverYes.Size = new System.Drawing.Size(52, 25);
+            this.chkFeverYes.TabIndex = 2;
+            this.chkFeverYes.Text = "Yes";
+            this.chkFeverYes.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -429,6 +413,22 @@ namespace Activity4_ContactTracing
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 21);
             this.label6.TabIndex = 1;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSubmit.FlatAppearance.BorderSize = 0;
+            this.btnSubmit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSubmit.Font = new System.Drawing.Font("Dela Gothic One", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Location = new System.Drawing.Point(355, 359);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(119, 44);
+            this.btnSubmit.TabIndex = 17;
+            this.btnSubmit.Text = "SUBMIT";
+            this.btnSubmit.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -461,36 +461,36 @@ namespace Activity4_ContactTracing
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtAdd;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCN;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox chkFeverNo;
+        private System.Windows.Forms.CheckBox chkFeverYes;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox chkContactNo;
+        private System.Windows.Forms.CheckBox chkContactYes;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.CheckBox chkTasteNo;
+        private System.Windows.Forms.CheckBox chkTasteYes;
+        private System.Windows.Forms.CheckBox chkTiredNo;
+        private System.Windows.Forms.CheckBox chkTiredYes;
+        private System.Windows.Forms.CheckBox chkCoughNo;
+        private System.Windows.Forms.CheckBox chkCoughYes;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }
 
