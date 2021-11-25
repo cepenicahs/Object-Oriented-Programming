@@ -107,6 +107,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn11.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn11.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn11.ForeColor = System.Drawing.Color.Black;
@@ -121,6 +122,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn12.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn12.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn12.ForeColor = System.Drawing.Color.Black;
@@ -135,6 +137,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn21.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn21.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn21.ForeColor = System.Drawing.Color.Black;
@@ -149,6 +152,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn22.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn22.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn22.ForeColor = System.Drawing.Color.Black;
@@ -163,6 +167,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn13.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn13.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn13.ForeColor = System.Drawing.Color.Black;
@@ -177,6 +182,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn23.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn23.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn23.ForeColor = System.Drawing.Color.Black;
@@ -191,6 +197,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn31.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn31.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn31.ForeColor = System.Drawing.Color.Black;
@@ -205,6 +212,7 @@ namespace Activity3_TicTacToe
             // 
             this.btn32.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btn32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn32.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn32.ForeColor = System.Drawing.Color.Black;
@@ -218,6 +226,7 @@ namespace Activity3_TicTacToe
             // btn33
             // 
             this.btn33.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btn33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumPurple;
             this.btn33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn33.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn33.ForeColor = System.Drawing.Color.Black;

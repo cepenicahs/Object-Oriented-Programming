@@ -13,7 +13,7 @@ namespace Activity3_TicTacToe
 {
     public partial class Form1 : Form
     {
-        bool turn = true; //true: X, false: Y
+        bool turn = true; //true: X, false: O
         int count = 0;
         public Form1()
         {
