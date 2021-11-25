@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BGM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RETRO Game Background Instrumental _ Royalty Free Music Loop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="d9afb2f0c922f34cb6ae8ad219f53ca3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\resources\d9afb2f0c922f34cb6ae8ad219f53ca3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="giphy-downsized-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\resources\giphy-downsized-large.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RETRO Game Background Instrumental _ Royalty Free Music Loop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RETRO Game Background Instrumental _ Royalty Free Music Loop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="text" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\resources\text.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -38,7 +38,7 @@ namespace Activity3_TicTacToe
 
         private void audio()
         {
-            SoundPlayer sound = new SoundPlayer(Properties.Resources.BGM);
+            SoundPlayer sound = new SoundPlayer(Properties.Resources.RETRO_Game_Background_Instrumental___Royalty_Free_Music_Loop);
             sound.Play();
         }
         private void button_click(object sender, EventArgs e)
