@@ -32,7 +32,6 @@ namespace Acitivity6_Time7Segment
             btnHours.Text = DateTime.Now.ToString("hh");
             btnMins.Text = DateTime.Now.ToString("mm");
             btnSecs.Text = DateTime.Now.ToString("ss");
-            btnHours.ForeColor = Color.Green;
         }
 
     }
