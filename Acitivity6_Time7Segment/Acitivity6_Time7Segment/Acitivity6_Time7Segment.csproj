@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\digital.ttf" />
+  </ItemGroup>
+
 </Project>

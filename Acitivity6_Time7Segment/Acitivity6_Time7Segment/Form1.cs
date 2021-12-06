@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Media;
 
 namespace Acitivity6_Time7Segment
 {
@@ -20,10 +22,7 @@ namespace Acitivity6_Time7Segment
         private void frmTime_Load(object sender, EventArgs e)
         {
             timer1.Start();
-        }
-
-        private void lblTime_Click(object sender, EventArgs e)
-        {
+            reset();
 
         }
 
@@ -34,5 +33,42 @@ namespace Acitivity6_Time7Segment
             btnSecs.Text = DateTime.Now.ToString("ss");
         }
 
+        private void btnSecs_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textChanged(object sender, EventArgs e)
+        {
+
+            if (btnSecs.ForeColor == Color.Red)
+                btnSecs.ForeColor = Color.Green;
+            else
+                btnSecs.ForeColor = Color.Red;
+        }
+
+        private void minTextChanged(object sender, EventArgs e)
+        {
+
+            if (btnMins.ForeColor == Color.Red)
+                btnMins.ForeColor = Color.Green;
+            else
+                btnMins.ForeColor = Color.Red;
+        }
+
+        private void reset()
+        {
+            btnHours.ForeColor = Color.Red;
+            btnMins.ForeColor = Color.Red;
+            btnSecs.ForeColor = Color.Red;
+        }
+
+        private void hrTextChanged(object sender, EventArgs e)
+        {
+            if (btnHours.ForeColor == Color.Red)
+                btnHours.ForeColor = Color.Green;
+            else
+                btnHours.ForeColor = Color.Red;
+        }
     }
 }

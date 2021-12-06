@@ -13,3 +13,4 @@ C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\A
 C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.dll
 C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.pdb
 C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.genruntimeconfig.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.csproj.AssemblyReference.cache
