@@ -1,0 +1,15 @@
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.exe
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.deps.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.runtimeconfig.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.runtimeconfig.dev.json
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\bin\Debug\netcoreapp3.1\Acitivity6_Time7Segment.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.frmTime.resources
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.AssemblyInfo.cs
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.dll
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.pdb
+C:\Users\acer\source\repos\Object-Oriented-Programming\Acitivity6_Time7Segment\Acitivity6_Time7Segment\obj\Debug\netcoreapp3.1\Acitivity6_Time7Segment.genruntimeconfig.cache
