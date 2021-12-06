@@ -56,7 +56,6 @@ namespace Acitivity6_Time7Segment
             this.btnHours.Name = "btnHours";
             this.btnHours.Size = new System.Drawing.Size(126, 89);
             this.btnHours.TabIndex = 0;
-            this.btnHours.Text = "HH";
             this.btnHours.UseVisualStyleBackColor = true;
             this.btnHours.TextChanged += new System.EventHandler(this.hrTextChanged);
             // 
@@ -71,7 +70,6 @@ namespace Acitivity6_Time7Segment
             this.btnMins.Name = "btnMins";
             this.btnMins.Size = new System.Drawing.Size(126, 89);
             this.btnMins.TabIndex = 1;
-            this.btnMins.Text = "HH";
             this.btnMins.UseVisualStyleBackColor = true;
             this.btnMins.TextChanged += new System.EventHandler(this.minTextChanged);
             // 
@@ -86,7 +84,6 @@ namespace Acitivity6_Time7Segment
             this.btnSecs.Name = "btnSecs";
             this.btnSecs.Size = new System.Drawing.Size(126, 89);
             this.btnSecs.TabIndex = 2;
-            this.btnSecs.Text = "HH";
             this.btnSecs.UseVisualStyleBackColor = true;
             this.btnSecs.TextChanged += new System.EventHandler(this.textChanged);
             this.btnSecs.Click += new System.EventHandler(this.btnSecs_Click);
