@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aCbMX78CYXcXc8iKOCzWoLe36b3rcF+YAEyGEGKQFsI/dq6pC10vwEjCfKLPOuatXoljnt43PtC0d6iPbnMQ7Q==",
+  "dgSpecHash": "5u8afcI+w/76iQdszs5dtYkzTZGtlXv2XyEyVxKxmwToRnlngjaBxMnbL09101TEvRkNMUJqIb1RBTl3A4PPpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity3_TicTacToe\\Activity3_TicTacToe\\Activity3_TicTacToe.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

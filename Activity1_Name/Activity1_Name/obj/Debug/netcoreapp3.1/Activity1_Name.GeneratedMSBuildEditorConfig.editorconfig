@@ -1,3 +1,9 @@
 is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = Activity1_Name
-build_property.ProjectDir = C:\Users\acer\Source\Repos\Object-Oriented-Programming\Activity1_Name\Activity1_Name\
+build_property.ProjectDir = C:\Users\acer\source\repos\Object-Oriented-Programming\Activity1_Name\Activity1_Name\

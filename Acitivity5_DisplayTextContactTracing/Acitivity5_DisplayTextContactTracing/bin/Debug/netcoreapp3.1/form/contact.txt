@@ -38,3 +38,23 @@ Did you have a close contact to a person who is asymptomatic or tested positive 
 No
 
 ////////////////////////////////////////////////////
+
+Full Name: Nicah S. Cepe
+Contact Number: 09176363162
+Address: L7 B38 Cabuyao Central Brgy Pulo Cabuyao Laguna
+Email: cepenicah@yahoo.com
+
+Date: Friday, 10 December 2021
+Did you have any of the following COVID19 symptoms for the past few weeks?
+Fever: 
+No
+Cough: 
+No
+Tiredness: 
+No
+Loss of taste and smell: 
+Yes
+Did you have a close contact to a person who is asymptomatic or tested positive in COVID19 for the past few weeks?
+Yes
+
+////////////////////////////////////////////////////
