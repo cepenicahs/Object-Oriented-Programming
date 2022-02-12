@@ -20,7 +20,12 @@
       "ProjectGuid": "43654b08-a720-477a-9936-2d9964ebcf96",
       "DisplayName": "Activity7_ResumeCreator",
       "ColorIndex": 2
+    },
+    "1cc6f334-1b42-4345-92cf-7f1d807da35a": {
+      "ProjectGuid": "1cc6f334-1b42-4345-92cf-7f1d807da35a",
+      "DisplayName": "Activity8_ContactTractingApp",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

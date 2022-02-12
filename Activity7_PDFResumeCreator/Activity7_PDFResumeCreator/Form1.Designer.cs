@@ -34,7 +34,7 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(55, 65);
+            this.btnLoad.Location = new System.Drawing.Point(908, 569);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(87, 58);
             this.btnLoad.TabIndex = 0;
@@ -43,7 +43,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(148, 65);
+            this.btnGenerate.Location = new System.Drawing.Point(1001, 569);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(87, 58);
             this.btnGenerate.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(293, 199);
+            this.ClientSize = new System.Drawing.Size(1108, 654);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.btnLoad);
             this.Name = "Form1";
