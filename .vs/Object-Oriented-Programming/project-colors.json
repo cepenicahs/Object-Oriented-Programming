@@ -25,7 +25,17 @@
       "ProjectGuid": "1cc6f334-1b42-4345-92cf-7f1d807da35a",
       "DisplayName": "Activity8_ContactTractingApp",
       "ColorIndex": 3
+    },
+    "d331cd1f-8420-41cb-8897-8f6a17be910d": {
+      "ProjectGuid": "d331cd1f-8420-41cb-8897-8f6a17be910d",
+      "DisplayName": "Activity8",
+      "ColorIndex": 4
+    },
+    "80097408-8fdd-4870-9692-f56e30c528f4": {
+      "ProjectGuid": "80097408-8fdd-4870-9692-f56e30c528f4",
+      "DisplayName": "Activity8_ContactTracingApp",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }
