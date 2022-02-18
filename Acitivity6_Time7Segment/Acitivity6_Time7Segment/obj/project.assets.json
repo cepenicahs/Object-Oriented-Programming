@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
+      "projectUniqueName": "C:\\Users\\acer\\Source\\Repos\\OOP\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
       "projectName": "Acitivity6_Time7Segment",
-      "projectPath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
+      "projectPath": "C:\\Users\\acer\\Source\\Repos\\OOP\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\obj\\",
+      "outputPath": "C:\\Users\\acer\\Source\\Repos\\OOP\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,8 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -54,6 +55,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -62,7 +81,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

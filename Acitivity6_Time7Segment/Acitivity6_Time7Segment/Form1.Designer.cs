@@ -30,66 +30,69 @@ namespace Acitivity6_Time7Segment
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.lblFirst = new System.Windows.Forms.Label();
+            this.lblSec = new System.Windows.Forms.Label();
+            this.Hour1top = new System.Windows.Forms.Button();
+            this.Hour1topleft = new System.Windows.Forms.Button();
+            this.Hour1topright = new System.Windows.Forms.Button();
+            this.Hour1botleft = new System.Windows.Forms.Button();
+            this.Hour1mid = new System.Windows.Forms.Button();
+            this.Hour1botright = new System.Windows.Forms.Button();
+            this.Hour1bot = new System.Windows.Forms.Button();
+            this.Hour2bot = new System.Windows.Forms.Button();
+            this.Hour2botright = new System.Windows.Forms.Button();
+            this.Hour2mid = new System.Windows.Forms.Button();
+            this.Hour2botleft = new System.Windows.Forms.Button();
+            this.Hour2topright = new System.Windows.Forms.Button();
+            this.Hour2topleft = new System.Windows.Forms.Button();
+            this.Hour2top = new System.Windows.Forms.Button();
+            this.Min2bot = new System.Windows.Forms.Button();
+            this.Min2botright = new System.Windows.Forms.Button();
+            this.Min2mid = new System.Windows.Forms.Button();
+            this.Min2botleft = new System.Windows.Forms.Button();
+            this.Min2topright = new System.Windows.Forms.Button();
+            this.Min2topleft = new System.Windows.Forms.Button();
+            this.Min2top = new System.Windows.Forms.Button();
+            this.Min1bot = new System.Windows.Forms.Button();
+            this.Min1botright = new System.Windows.Forms.Button();
+            this.Min1mid = new System.Windows.Forms.Button();
+            this.Min1botleft = new System.Windows.Forms.Button();
+            this.Min1topright = new System.Windows.Forms.Button();
+            this.Min1topleft = new System.Windows.Forms.Button();
+            this.Min1top = new System.Windows.Forms.Button();
+            this.Sec2bot = new System.Windows.Forms.Button();
+            this.Sec2botright = new System.Windows.Forms.Button();
+            this.Sec2mid = new System.Windows.Forms.Button();
+            this.Sec2botleft = new System.Windows.Forms.Button();
+            this.Sec2topright = new System.Windows.Forms.Button();
+            this.Sec2topleft = new System.Windows.Forms.Button();
+            this.Sec2top = new System.Windows.Forms.Button();
+            this.Sec1bot = new System.Windows.Forms.Button();
+            this.Sec1botright = new System.Windows.Forms.Button();
+            this.Sec1mid = new System.Windows.Forms.Button();
+            this.Sec1botleft = new System.Windows.Forms.Button();
+            this.Sec1topright = new System.Windows.Forms.Button();
+            this.Sec1topleft = new System.Windows.Forms.Button();
+            this.Sec1top = new System.Windows.Forms.Button();
+            this.lblAmpm = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.btnSec6d = new System.Windows.Forms.Button();
-            this.btnSec6c = new System.Windows.Forms.Button();
-            this.btnSec6g = new System.Windows.Forms.Button();
-            this.btnSec6e = new System.Windows.Forms.Button();
-            this.btnSec6b = new System.Windows.Forms.Button();
-            this.btnSec6f = new System.Windows.Forms.Button();
-            this.btnSec6a = new System.Windows.Forms.Button();
-            this.btnSec5d = new System.Windows.Forms.Button();
-            this.btnSec5c = new System.Windows.Forms.Button();
-            this.btnSec5g = new System.Windows.Forms.Button();
-            this.btnSec5e = new System.Windows.Forms.Button();
-            this.btnSec5b = new System.Windows.Forms.Button();
-            this.btnSec5f = new System.Windows.Forms.Button();
-            this.btnSec5a = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Start);
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Dela Gothic One", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(198, 33);
             this.button1.Name = "button1";
@@ -98,520 +101,650 @@ namespace Acitivity6_Time7Segment
             this.button1.Text = "TIME NOW";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // lblFirst
+            // 
+            this.lblFirst.BackColor = System.Drawing.Color.Transparent;
+            this.lblFirst.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFirst.ForeColor = System.Drawing.Color.Red;
+            this.lblFirst.Location = new System.Drawing.Point(273, 164);
+            this.lblFirst.Name = "lblFirst";
+            this.lblFirst.Size = new System.Drawing.Size(38, 65);
+            this.lblFirst.TabIndex = 4;
+            this.lblFirst.Text = ":";
+            // 
+            // lblSec
+            // 
+            this.lblSec.BackColor = System.Drawing.Color.Transparent;
+            this.lblSec.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblSec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblSec.ForeColor = System.Drawing.Color.Red;
+            this.lblSec.Location = new System.Drawing.Point(464, 164);
+            this.lblSec.Name = "lblSec";
+            this.lblSec.Size = new System.Drawing.Size(38, 65);
+            this.lblSec.TabIndex = 5;
+            this.lblSec.Text = ":";
+            // 
+            // Hour1top
+            // 
+            this.Hour1top.BackColor = System.Drawing.Color.Red;
+            this.Hour1top.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1top.Location = new System.Drawing.Point(136, 128);
+            this.Hour1top.Name = "Hour1top";
+            this.Hour1top.Size = new System.Drawing.Size(35, 17);
+            this.Hour1top.TabIndex = 6;
+            this.Hour1top.UseVisualStyleBackColor = false;
+            // 
+            // Hour1topleft
+            // 
+            this.Hour1topleft.BackColor = System.Drawing.Color.Red;
+            this.Hour1topleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1topleft.Location = new System.Drawing.Point(124, 139);
+            this.Hour1topleft.Name = "Hour1topleft";
+            this.Hour1topleft.Size = new System.Drawing.Size(18, 66);
+            this.Hour1topleft.TabIndex = 7;
+            this.Hour1topleft.UseVisualStyleBackColor = false;
+            // 
+            // Hour1topright
+            // 
+            this.Hour1topright.BackColor = System.Drawing.Color.Red;
+            this.Hour1topright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1topright.Location = new System.Drawing.Point(163, 139);
+            this.Hour1topright.Name = "Hour1topright";
+            this.Hour1topright.Size = new System.Drawing.Size(18, 66);
+            this.Hour1topright.TabIndex = 8;
+            this.Hour1topright.UseVisualStyleBackColor = false;
+            // 
+            // Hour1botleft
+            // 
+            this.Hour1botleft.BackColor = System.Drawing.Color.Red;
+            this.Hour1botleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1botleft.Location = new System.Drawing.Point(124, 211);
+            this.Hour1botleft.Name = "Hour1botleft";
+            this.Hour1botleft.Size = new System.Drawing.Size(18, 59);
+            this.Hour1botleft.TabIndex = 9;
+            this.Hour1botleft.UseVisualStyleBackColor = false;
+            // 
+            // Hour1mid
+            // 
+            this.Hour1mid.BackColor = System.Drawing.Color.Red;
+            this.Hour1mid.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1mid.Location = new System.Drawing.Point(136, 196);
+            this.Hour1mid.Name = "Hour1mid";
+            this.Hour1mid.Size = new System.Drawing.Size(35, 17);
+            this.Hour1mid.TabIndex = 10;
+            this.Hour1mid.UseVisualStyleBackColor = false;
+            // 
+            // Hour1botright
+            // 
+            this.Hour1botright.BackColor = System.Drawing.Color.Red;
+            this.Hour1botright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1botright.Location = new System.Drawing.Point(163, 211);
+            this.Hour1botright.Name = "Hour1botright";
+            this.Hour1botright.Size = new System.Drawing.Size(18, 59);
+            this.Hour1botright.TabIndex = 11;
+            this.Hour1botright.UseVisualStyleBackColor = false;
+            this.Hour1botright.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // Hour1bot
+            // 
+            this.Hour1bot.BackColor = System.Drawing.Color.Red;
+            this.Hour1bot.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour1bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour1bot.Location = new System.Drawing.Point(136, 264);
+            this.Hour1bot.Name = "Hour1bot";
+            this.Hour1bot.Size = new System.Drawing.Size(35, 17);
+            this.Hour1bot.TabIndex = 12;
+            this.Hour1bot.UseVisualStyleBackColor = false;
+            // 
+            // Hour2bot
+            // 
+            this.Hour2bot.BackColor = System.Drawing.Color.Red;
+            this.Hour2bot.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2bot.Location = new System.Drawing.Point(210, 264);
+            this.Hour2bot.Name = "Hour2bot";
+            this.Hour2bot.Size = new System.Drawing.Size(35, 17);
+            this.Hour2bot.TabIndex = 19;
+            this.Hour2bot.UseVisualStyleBackColor = false;
+            // 
+            // Hour2botright
+            // 
+            this.Hour2botright.BackColor = System.Drawing.Color.Red;
+            this.Hour2botright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2botright.Location = new System.Drawing.Point(237, 211);
+            this.Hour2botright.Name = "Hour2botright";
+            this.Hour2botright.Size = new System.Drawing.Size(18, 59);
+            this.Hour2botright.TabIndex = 18;
+            this.Hour2botright.UseVisualStyleBackColor = false;
+            // 
+            // Hour2mid
+            // 
+            this.Hour2mid.BackColor = System.Drawing.Color.Red;
+            this.Hour2mid.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2mid.Location = new System.Drawing.Point(210, 196);
+            this.Hour2mid.Name = "Hour2mid";
+            this.Hour2mid.Size = new System.Drawing.Size(35, 17);
+            this.Hour2mid.TabIndex = 17;
+            this.Hour2mid.UseVisualStyleBackColor = false;
+            // 
+            // Hour2botleft
+            // 
+            this.Hour2botleft.BackColor = System.Drawing.Color.Red;
+            this.Hour2botleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2botleft.Location = new System.Drawing.Point(198, 211);
+            this.Hour2botleft.Name = "Hour2botleft";
+            this.Hour2botleft.Size = new System.Drawing.Size(18, 59);
+            this.Hour2botleft.TabIndex = 16;
+            this.Hour2botleft.UseVisualStyleBackColor = false;
+            // 
+            // Hour2topright
+            // 
+            this.Hour2topright.BackColor = System.Drawing.Color.Red;
+            this.Hour2topright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2topright.Location = new System.Drawing.Point(237, 139);
+            this.Hour2topright.Name = "Hour2topright";
+            this.Hour2topright.Size = new System.Drawing.Size(18, 66);
+            this.Hour2topright.TabIndex = 15;
+            this.Hour2topright.UseVisualStyleBackColor = false;
+            // 
+            // Hour2topleft
+            // 
+            this.Hour2topleft.BackColor = System.Drawing.Color.Red;
+            this.Hour2topleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2topleft.Location = new System.Drawing.Point(198, 139);
+            this.Hour2topleft.Name = "Hour2topleft";
+            this.Hour2topleft.Size = new System.Drawing.Size(18, 66);
+            this.Hour2topleft.TabIndex = 14;
+            this.Hour2topleft.UseVisualStyleBackColor = false;
+            // 
+            // Hour2top
+            // 
+            this.Hour2top.BackColor = System.Drawing.Color.Red;
+            this.Hour2top.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Hour2top.Location = new System.Drawing.Point(210, 128);
+            this.Hour2top.Name = "Hour2top";
+            this.Hour2top.Size = new System.Drawing.Size(35, 17);
+            this.Hour2top.TabIndex = 13;
+            this.Hour2top.UseVisualStyleBackColor = false;
+            // 
+            // Min2bot
+            // 
+            this.Min2bot.BackColor = System.Drawing.Color.Red;
+            this.Min2bot.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2bot.Location = new System.Drawing.Point(404, 264);
+            this.Min2bot.Name = "Min2bot";
+            this.Min2bot.Size = new System.Drawing.Size(32, 17);
+            this.Min2bot.TabIndex = 33;
+            this.Min2bot.UseVisualStyleBackColor = false;
+            // 
+            // Min2botright
+            // 
+            this.Min2botright.BackColor = System.Drawing.Color.Red;
+            this.Min2botright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2botright.Location = new System.Drawing.Point(430, 211);
+            this.Min2botright.Name = "Min2botright";
+            this.Min2botright.Size = new System.Drawing.Size(18, 59);
+            this.Min2botright.TabIndex = 32;
+            this.Min2botright.UseVisualStyleBackColor = false;
+            // 
+            // Min2mid
+            // 
+            this.Min2mid.BackColor = System.Drawing.Color.Red;
+            this.Min2mid.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2mid.Location = new System.Drawing.Point(404, 196);
+            this.Min2mid.Name = "Min2mid";
+            this.Min2mid.Size = new System.Drawing.Size(32, 17);
+            this.Min2mid.TabIndex = 31;
+            this.Min2mid.UseVisualStyleBackColor = false;
+            // 
+            // Min2botleft
+            // 
+            this.Min2botleft.BackColor = System.Drawing.Color.Red;
+            this.Min2botleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2botleft.Location = new System.Drawing.Point(391, 211);
+            this.Min2botleft.Name = "Min2botleft";
+            this.Min2botleft.Size = new System.Drawing.Size(18, 59);
+            this.Min2botleft.TabIndex = 30;
+            this.Min2botleft.UseVisualStyleBackColor = false;
+            // 
+            // Min2topright
+            // 
+            this.Min2topright.BackColor = System.Drawing.Color.Red;
+            this.Min2topright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2topright.Location = new System.Drawing.Point(430, 139);
+            this.Min2topright.Name = "Min2topright";
+            this.Min2topright.Size = new System.Drawing.Size(18, 66);
+            this.Min2topright.TabIndex = 29;
+            this.Min2topright.UseVisualStyleBackColor = false;
+            // 
+            // Min2topleft
+            // 
+            this.Min2topleft.BackColor = System.Drawing.Color.Red;
+            this.Min2topleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2topleft.Location = new System.Drawing.Point(391, 139);
+            this.Min2topleft.Name = "Min2topleft";
+            this.Min2topleft.Size = new System.Drawing.Size(18, 66);
+            this.Min2topleft.TabIndex = 28;
+            this.Min2topleft.UseVisualStyleBackColor = false;
+            // 
+            // Min2top
+            // 
+            this.Min2top.BackColor = System.Drawing.Color.Red;
+            this.Min2top.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min2top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min2top.Location = new System.Drawing.Point(404, 128);
+            this.Min2top.Name = "Min2top";
+            this.Min2top.Size = new System.Drawing.Size(32, 17);
+            this.Min2top.TabIndex = 27;
+            this.Min2top.UseVisualStyleBackColor = false;
+            // 
+            // Min1bot
+            // 
+            this.Min1bot.BackColor = System.Drawing.Color.Red;
+            this.Min1bot.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1bot.Location = new System.Drawing.Point(329, 264);
+            this.Min1bot.Name = "Min1bot";
+            this.Min1bot.Size = new System.Drawing.Size(32, 17);
+            this.Min1bot.TabIndex = 26;
+            this.Min1bot.UseVisualStyleBackColor = false;
+            // 
+            // Min1botright
+            // 
+            this.Min1botright.BackColor = System.Drawing.Color.Red;
+            this.Min1botright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1botright.Location = new System.Drawing.Point(356, 211);
+            this.Min1botright.Name = "Min1botright";
+            this.Min1botright.Size = new System.Drawing.Size(18, 59);
+            this.Min1botright.TabIndex = 25;
+            this.Min1botright.UseVisualStyleBackColor = false;
+            // 
+            // Min1mid
+            // 
+            this.Min1mid.BackColor = System.Drawing.Color.Red;
+            this.Min1mid.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1mid.Location = new System.Drawing.Point(329, 196);
+            this.Min1mid.Name = "Min1mid";
+            this.Min1mid.Size = new System.Drawing.Size(32, 17);
+            this.Min1mid.TabIndex = 24;
+            this.Min1mid.UseVisualStyleBackColor = false;
+            // 
+            // Min1botleft
+            // 
+            this.Min1botleft.BackColor = System.Drawing.Color.Red;
+            this.Min1botleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1botleft.Location = new System.Drawing.Point(317, 211);
+            this.Min1botleft.Name = "Min1botleft";
+            this.Min1botleft.Size = new System.Drawing.Size(18, 59);
+            this.Min1botleft.TabIndex = 23;
+            this.Min1botleft.UseVisualStyleBackColor = false;
+            // 
+            // Min1topright
+            // 
+            this.Min1topright.BackColor = System.Drawing.Color.Red;
+            this.Min1topright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1topright.Location = new System.Drawing.Point(356, 139);
+            this.Min1topright.Name = "Min1topright";
+            this.Min1topright.Size = new System.Drawing.Size(18, 66);
+            this.Min1topright.TabIndex = 22;
+            this.Min1topright.UseVisualStyleBackColor = false;
+            // 
+            // Min1topleft
+            // 
+            this.Min1topleft.BackColor = System.Drawing.Color.Red;
+            this.Min1topleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1topleft.Location = new System.Drawing.Point(317, 139);
+            this.Min1topleft.Name = "Min1topleft";
+            this.Min1topleft.Size = new System.Drawing.Size(18, 66);
+            this.Min1topleft.TabIndex = 21;
+            this.Min1topleft.UseVisualStyleBackColor = false;
+            // 
+            // Min1top
+            // 
+            this.Min1top.BackColor = System.Drawing.Color.Red;
+            this.Min1top.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Min1top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Min1top.Location = new System.Drawing.Point(329, 128);
+            this.Min1top.Name = "Min1top";
+            this.Min1top.Size = new System.Drawing.Size(32, 17);
+            this.Min1top.TabIndex = 20;
+            this.Min1top.UseVisualStyleBackColor = false;
+            // 
+            // Sec2bot
+            // 
+            this.Sec2bot.BackColor = System.Drawing.Color.Red;
+            this.Sec2bot.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2bot.Location = new System.Drawing.Point(597, 264);
+            this.Sec2bot.Name = "Sec2bot";
+            this.Sec2bot.Size = new System.Drawing.Size(30, 17);
+            this.Sec2bot.TabIndex = 47;
+            this.Sec2bot.UseVisualStyleBackColor = false;
+            // 
+            // Sec2botright
+            // 
+            this.Sec2botright.BackColor = System.Drawing.Color.Red;
+            this.Sec2botright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2botright.Location = new System.Drawing.Point(621, 211);
+            this.Sec2botright.Name = "Sec2botright";
+            this.Sec2botright.Size = new System.Drawing.Size(18, 59);
+            this.Sec2botright.TabIndex = 46;
+            this.Sec2botright.UseVisualStyleBackColor = false;
+            // 
+            // Sec2mid
+            // 
+            this.Sec2mid.BackColor = System.Drawing.Color.Red;
+            this.Sec2mid.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2mid.Location = new System.Drawing.Point(597, 196);
+            this.Sec2mid.Name = "Sec2mid";
+            this.Sec2mid.Size = new System.Drawing.Size(30, 17);
+            this.Sec2mid.TabIndex = 45;
+            this.Sec2mid.UseVisualStyleBackColor = false;
+            // 
+            // Sec2botleft
+            // 
+            this.Sec2botleft.BackColor = System.Drawing.Color.Red;
+            this.Sec2botleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2botleft.Location = new System.Drawing.Point(582, 211);
+            this.Sec2botleft.Name = "Sec2botleft";
+            this.Sec2botleft.Size = new System.Drawing.Size(18, 59);
+            this.Sec2botleft.TabIndex = 44;
+            this.Sec2botleft.UseVisualStyleBackColor = false;
+            // 
+            // Sec2topright
+            // 
+            this.Sec2topright.BackColor = System.Drawing.Color.Red;
+            this.Sec2topright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2topright.Location = new System.Drawing.Point(621, 139);
+            this.Sec2topright.Name = "Sec2topright";
+            this.Sec2topright.Size = new System.Drawing.Size(18, 66);
+            this.Sec2topright.TabIndex = 43;
+            this.Sec2topright.UseVisualStyleBackColor = false;
+            // 
+            // Sec2topleft
+            // 
+            this.Sec2topleft.BackColor = System.Drawing.Color.Red;
+            this.Sec2topleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2topleft.Location = new System.Drawing.Point(582, 139);
+            this.Sec2topleft.Name = "Sec2topleft";
+            this.Sec2topleft.Size = new System.Drawing.Size(18, 66);
+            this.Sec2topleft.TabIndex = 42;
+            this.Sec2topleft.UseVisualStyleBackColor = false;
+            // 
+            // Sec2top
+            // 
+            this.Sec2top.BackColor = System.Drawing.Color.Red;
+            this.Sec2top.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec2top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec2top.Location = new System.Drawing.Point(597, 128);
+            this.Sec2top.Name = "Sec2top";
+            this.Sec2top.Size = new System.Drawing.Size(30, 17);
+            this.Sec2top.TabIndex = 41;
+            this.Sec2top.UseVisualStyleBackColor = false;
+            // 
+            // Sec1bot
+            // 
+            this.Sec1bot.BackColor = System.Drawing.Color.Red;
+            this.Sec1bot.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1bot.Location = new System.Drawing.Point(521, 264);
+            this.Sec1bot.Name = "Sec1bot";
+            this.Sec1bot.Size = new System.Drawing.Size(31, 17);
+            this.Sec1bot.TabIndex = 40;
+            this.Sec1bot.UseVisualStyleBackColor = false;
+            // 
+            // Sec1botright
+            // 
+            this.Sec1botright.BackColor = System.Drawing.Color.Red;
+            this.Sec1botright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1botright.Location = new System.Drawing.Point(547, 211);
+            this.Sec1botright.Name = "Sec1botright";
+            this.Sec1botright.Size = new System.Drawing.Size(18, 59);
+            this.Sec1botright.TabIndex = 39;
+            this.Sec1botright.UseVisualStyleBackColor = false;
+            // 
+            // Sec1mid
+            // 
+            this.Sec1mid.BackColor = System.Drawing.Color.Red;
+            this.Sec1mid.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1mid.Location = new System.Drawing.Point(521, 196);
+            this.Sec1mid.Name = "Sec1mid";
+            this.Sec1mid.Size = new System.Drawing.Size(31, 17);
+            this.Sec1mid.TabIndex = 38;
+            this.Sec1mid.UseVisualStyleBackColor = false;
+            // 
+            // Sec1botleft
+            // 
+            this.Sec1botleft.BackColor = System.Drawing.Color.Red;
+            this.Sec1botleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1botleft.Location = new System.Drawing.Point(508, 211);
+            this.Sec1botleft.Name = "Sec1botleft";
+            this.Sec1botleft.Size = new System.Drawing.Size(18, 59);
+            this.Sec1botleft.TabIndex = 37;
+            this.Sec1botleft.UseVisualStyleBackColor = false;
+            // 
+            // Sec1topright
+            // 
+            this.Sec1topright.BackColor = System.Drawing.Color.Red;
+            this.Sec1topright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1topright.Location = new System.Drawing.Point(547, 139);
+            this.Sec1topright.Name = "Sec1topright";
+            this.Sec1topright.Size = new System.Drawing.Size(18, 66);
+            this.Sec1topright.TabIndex = 36;
+            this.Sec1topright.UseVisualStyleBackColor = false;
+            // 
+            // Sec1topleft
+            // 
+            this.Sec1topleft.BackColor = System.Drawing.Color.Red;
+            this.Sec1topleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1topleft.Location = new System.Drawing.Point(508, 139);
+            this.Sec1topleft.Name = "Sec1topleft";
+            this.Sec1topleft.Size = new System.Drawing.Size(18, 66);
+            this.Sec1topleft.TabIndex = 35;
+            this.Sec1topleft.UseVisualStyleBackColor = false;
+            // 
+            // Sec1top
+            // 
+            this.Sec1top.BackColor = System.Drawing.Color.Red;
+            this.Sec1top.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Sec1top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sec1top.Location = new System.Drawing.Point(521, 128);
+            this.Sec1top.Name = "Sec1top";
+            this.Sec1top.Size = new System.Drawing.Size(31, 17);
+            this.Sec1top.TabIndex = 34;
+            this.Sec1top.UseVisualStyleBackColor = false;
+            // 
+            // lblAmpm
+            // 
+            this.lblAmpm.AutoSize = true;
+            this.lblAmpm.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblAmpm.ForeColor = System.Drawing.Color.Red;
+            this.lblAmpm.Location = new System.Drawing.Point(645, 244);
+            this.lblAmpm.Name = "lblAmpm";
+            this.lblAmpm.Size = new System.Drawing.Size(106, 56);
+            this.lblAmpm.TabIndex = 48;
+            this.lblAmpm.Text = "AM";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(48, 337);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 15);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "label3";
+            // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Dela Gothic One", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(273, 172);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(207, 327);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 86);
-            this.label1.TabIndex = 4;
-            this.label1.Text = ":";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 50;
+            this.label1.Text = "label1";
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Dela Gothic One", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(464, 172);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(318, 336);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 86);
-            this.label2.TabIndex = 5;
-            this.label2.Text = ":";
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(124, 128);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 17);
-            this.button2.TabIndex = 6;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(124, 151);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(18, 39);
-            this.button3.TabIndex = 7;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(163, 151);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(18, 39);
-            this.button4.TabIndex = 8;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button5.Location = new System.Drawing.Point(124, 219);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(18, 39);
-            this.button5.TabIndex = 9;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button6.Location = new System.Drawing.Point(124, 196);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(57, 17);
-            this.button6.TabIndex = 10;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button7.Location = new System.Drawing.Point(163, 219);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(18, 39);
-            this.button7.TabIndex = 11;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button8
-            // 
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button8.Location = new System.Drawing.Point(124, 264);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(57, 17);
-            this.button8.TabIndex = 12;
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button9.Location = new System.Drawing.Point(198, 264);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(57, 17);
-            this.button9.TabIndex = 19;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button10.Location = new System.Drawing.Point(237, 219);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(18, 39);
-            this.button10.TabIndex = 18;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button11.Location = new System.Drawing.Point(198, 196);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(57, 17);
-            this.button11.TabIndex = 17;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button12.Location = new System.Drawing.Point(198, 219);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(18, 39);
-            this.button12.TabIndex = 16;
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button13.Location = new System.Drawing.Point(237, 151);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(18, 39);
-            this.button13.TabIndex = 15;
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button14.Location = new System.Drawing.Point(198, 151);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(18, 39);
-            this.button14.TabIndex = 14;
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button15.Location = new System.Drawing.Point(198, 128);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(57, 17);
-            this.button15.TabIndex = 13;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button16.Location = new System.Drawing.Point(391, 264);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(57, 17);
-            this.button16.TabIndex = 33;
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button17.Location = new System.Drawing.Point(430, 219);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(18, 39);
-            this.button17.TabIndex = 32;
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button18.Location = new System.Drawing.Point(391, 196);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(57, 17);
-            this.button18.TabIndex = 31;
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button19.Location = new System.Drawing.Point(391, 219);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(18, 39);
-            this.button19.TabIndex = 30;
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button20.Location = new System.Drawing.Point(430, 151);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(18, 39);
-            this.button20.TabIndex = 29;
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // button21
-            // 
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button21.Location = new System.Drawing.Point(391, 151);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(18, 39);
-            this.button21.TabIndex = 28;
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button22.Location = new System.Drawing.Point(391, 128);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(57, 17);
-            this.button22.TabIndex = 27;
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button23.Location = new System.Drawing.Point(317, 264);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(57, 17);
-            this.button23.TabIndex = 26;
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button24.Location = new System.Drawing.Point(356, 219);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(18, 39);
-            this.button24.TabIndex = 25;
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button25.Location = new System.Drawing.Point(317, 196);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(57, 17);
-            this.button25.TabIndex = 24;
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button26.Location = new System.Drawing.Point(317, 219);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(18, 39);
-            this.button26.TabIndex = 23;
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button27.Location = new System.Drawing.Point(356, 151);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(18, 39);
-            this.button27.TabIndex = 22;
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button28.Location = new System.Drawing.Point(317, 151);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(18, 39);
-            this.button28.TabIndex = 21;
-            this.button28.UseVisualStyleBackColor = false;
-            // 
-            // button29
-            // 
-            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button29.Location = new System.Drawing.Point(317, 128);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(57, 17);
-            this.button29.TabIndex = 20;
-            this.button29.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6d
-            // 
-            this.btnSec6d.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6d.Location = new System.Drawing.Point(582, 264);
-            this.btnSec6d.Name = "btnSec6d";
-            this.btnSec6d.Size = new System.Drawing.Size(57, 17);
-            this.btnSec6d.TabIndex = 47;
-            this.btnSec6d.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6c
-            // 
-            this.btnSec6c.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6c.Location = new System.Drawing.Point(621, 219);
-            this.btnSec6c.Name = "btnSec6c";
-            this.btnSec6c.Size = new System.Drawing.Size(18, 39);
-            this.btnSec6c.TabIndex = 46;
-            this.btnSec6c.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6g
-            // 
-            this.btnSec6g.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6g.Location = new System.Drawing.Point(582, 196);
-            this.btnSec6g.Name = "btnSec6g";
-            this.btnSec6g.Size = new System.Drawing.Size(57, 17);
-            this.btnSec6g.TabIndex = 45;
-            this.btnSec6g.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6e
-            // 
-            this.btnSec6e.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6e.Location = new System.Drawing.Point(582, 219);
-            this.btnSec6e.Name = "btnSec6e";
-            this.btnSec6e.Size = new System.Drawing.Size(18, 39);
-            this.btnSec6e.TabIndex = 44;
-            this.btnSec6e.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6b
-            // 
-            this.btnSec6b.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6b.Location = new System.Drawing.Point(621, 151);
-            this.btnSec6b.Name = "btnSec6b";
-            this.btnSec6b.Size = new System.Drawing.Size(18, 39);
-            this.btnSec6b.TabIndex = 43;
-            this.btnSec6b.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6f
-            // 
-            this.btnSec6f.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6f.Location = new System.Drawing.Point(582, 151);
-            this.btnSec6f.Name = "btnSec6f";
-            this.btnSec6f.Size = new System.Drawing.Size(18, 39);
-            this.btnSec6f.TabIndex = 42;
-            this.btnSec6f.UseVisualStyleBackColor = false;
-            // 
-            // btnSec6a
-            // 
-            this.btnSec6a.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec6a.Location = new System.Drawing.Point(582, 128);
-            this.btnSec6a.Name = "btnSec6a";
-            this.btnSec6a.Size = new System.Drawing.Size(57, 17);
-            this.btnSec6a.TabIndex = 41;
-            this.btnSec6a.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5d
-            // 
-            this.btnSec5d.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5d.Location = new System.Drawing.Point(508, 264);
-            this.btnSec5d.Name = "btnSec5d";
-            this.btnSec5d.Size = new System.Drawing.Size(57, 17);
-            this.btnSec5d.TabIndex = 40;
-            this.btnSec5d.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5c
-            // 
-            this.btnSec5c.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5c.Location = new System.Drawing.Point(547, 219);
-            this.btnSec5c.Name = "btnSec5c";
-            this.btnSec5c.Size = new System.Drawing.Size(18, 39);
-            this.btnSec5c.TabIndex = 39;
-            this.btnSec5c.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5g
-            // 
-            this.btnSec5g.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5g.Location = new System.Drawing.Point(508, 196);
-            this.btnSec5g.Name = "btnSec5g";
-            this.btnSec5g.Size = new System.Drawing.Size(57, 17);
-            this.btnSec5g.TabIndex = 38;
-            this.btnSec5g.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5e
-            // 
-            this.btnSec5e.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5e.Location = new System.Drawing.Point(508, 219);
-            this.btnSec5e.Name = "btnSec5e";
-            this.btnSec5e.Size = new System.Drawing.Size(18, 39);
-            this.btnSec5e.TabIndex = 37;
-            this.btnSec5e.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5b
-            // 
-            this.btnSec5b.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5b.Location = new System.Drawing.Point(547, 151);
-            this.btnSec5b.Name = "btnSec5b";
-            this.btnSec5b.Size = new System.Drawing.Size(18, 39);
-            this.btnSec5b.TabIndex = 36;
-            this.btnSec5b.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5f
-            // 
-            this.btnSec5f.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5f.Location = new System.Drawing.Point(508, 151);
-            this.btnSec5f.Name = "btnSec5f";
-            this.btnSec5f.Size = new System.Drawing.Size(18, 39);
-            this.btnSec5f.TabIndex = 35;
-            this.btnSec5f.UseVisualStyleBackColor = false;
-            // 
-            // btnSec5a
-            // 
-            this.btnSec5a.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnSec5a.Location = new System.Drawing.Point(508, 128);
-            this.btnSec5a.Name = "btnSec5a";
-            this.btnSec5a.Size = new System.Drawing.Size(57, 17);
-            this.btnSec5a.TabIndex = 34;
-            this.btnSec5a.UseVisualStyleBackColor = false;
+            this.label2.Size = new System.Drawing.Size(38, 15);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "label2";
             // 
             // frmTime
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(785, 384);
-            this.Controls.Add(this.btnSec6d);
-            this.Controls.Add(this.btnSec6c);
-            this.Controls.Add(this.btnSec6g);
-            this.Controls.Add(this.btnSec6e);
-            this.Controls.Add(this.btnSec6b);
-            this.Controls.Add(this.btnSec6f);
-            this.Controls.Add(this.btnSec6a);
-            this.Controls.Add(this.btnSec5d);
-            this.Controls.Add(this.btnSec5c);
-            this.Controls.Add(this.btnSec5g);
-            this.Controls.Add(this.btnSec5e);
-            this.Controls.Add(this.btnSec5b);
-            this.Controls.Add(this.btnSec5f);
-            this.Controls.Add(this.btnSec5a);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblAmpm);
+            this.Controls.Add(this.Sec2bot);
+            this.Controls.Add(this.Sec2botright);
+            this.Controls.Add(this.Sec2mid);
+            this.Controls.Add(this.Sec2botleft);
+            this.Controls.Add(this.Sec2topright);
+            this.Controls.Add(this.Sec2topleft);
+            this.Controls.Add(this.Sec2top);
+            this.Controls.Add(this.Sec1bot);
+            this.Controls.Add(this.Sec1botright);
+            this.Controls.Add(this.Sec1mid);
+            this.Controls.Add(this.Sec1botleft);
+            this.Controls.Add(this.Sec1topright);
+            this.Controls.Add(this.Sec1topleft);
+            this.Controls.Add(this.Sec1top);
+            this.Controls.Add(this.Min2bot);
+            this.Controls.Add(this.Min2botright);
+            this.Controls.Add(this.Min2mid);
+            this.Controls.Add(this.Min2botleft);
+            this.Controls.Add(this.Min2topright);
+            this.Controls.Add(this.Min2topleft);
+            this.Controls.Add(this.Min2top);
+            this.Controls.Add(this.Min1bot);
+            this.Controls.Add(this.Min1botright);
+            this.Controls.Add(this.Min1mid);
+            this.Controls.Add(this.Min1botleft);
+            this.Controls.Add(this.Min1topright);
+            this.Controls.Add(this.Min1topleft);
+            this.Controls.Add(this.Min1top);
+            this.Controls.Add(this.Hour2bot);
+            this.Controls.Add(this.Hour2botright);
+            this.Controls.Add(this.Hour2mid);
+            this.Controls.Add(this.Hour2botleft);
+            this.Controls.Add(this.Hour2topright);
+            this.Controls.Add(this.Hour2topleft);
+            this.Controls.Add(this.Hour2top);
+            this.Controls.Add(this.Hour1bot);
+            this.Controls.Add(this.Hour1botright);
+            this.Controls.Add(this.Hour1mid);
+            this.Controls.Add(this.Hour1botleft);
+            this.Controls.Add(this.Hour1topright);
+            this.Controls.Add(this.Hour1topleft);
+            this.Controls.Add(this.Hour1top);
+            this.Controls.Add(this.lblSec);
+            this.Controls.Add(this.lblFirst);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmTime";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Time";
             this.Load += new System.EventHandler(this.frmTime_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.Click += new System.EventHandler(this.all);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblFirst;
+        private System.Windows.Forms.Label lblSec;
+        private System.Windows.Forms.Button Hour1top;
+        private System.Windows.Forms.Button Hour1topleft;
+        private System.Windows.Forms.Button Hour1topright;
+        private System.Windows.Forms.Button Hour1botleft;
+        private System.Windows.Forms.Button Hour1mid;
+        private System.Windows.Forms.Button Hour1botright;
+        private System.Windows.Forms.Button Hour1bot;
+        private System.Windows.Forms.Button Hour2bot;
+        private System.Windows.Forms.Button Hour2botright;
+        private System.Windows.Forms.Button Hour2mid;
+        private System.Windows.Forms.Button Hour2botleft;
+        private System.Windows.Forms.Button Hour2topright;
+        private System.Windows.Forms.Button Hour2topleft;
+        private System.Windows.Forms.Button Hour2top;
+        private System.Windows.Forms.Button Min2bot;
+        private System.Windows.Forms.Button Min2botright;
+        private System.Windows.Forms.Button Min2mid;
+        private System.Windows.Forms.Button Min2botleft;
+        private System.Windows.Forms.Button Min2topright;
+        private System.Windows.Forms.Button Min2topleft;
+        private System.Windows.Forms.Button Min2top;
+        private System.Windows.Forms.Button Min1bot;
+        private System.Windows.Forms.Button Min1botright;
+        private System.Windows.Forms.Button Min1mid;
+        private System.Windows.Forms.Button Min1botleft;
+        private System.Windows.Forms.Button Min1topright;
+        private System.Windows.Forms.Button Min1topleft;
+        private System.Windows.Forms.Button Min1top;
+        private System.Windows.Forms.Button Sec2bot;
+        private System.Windows.Forms.Button Sec2botright;
+        private System.Windows.Forms.Button Sec2mid;
+        private System.Windows.Forms.Button Sec2botleft;
+        private System.Windows.Forms.Button Sec2topright;
+        private System.Windows.Forms.Button Sec2topleft;
+        private System.Windows.Forms.Button Sec2top;
+        private System.Windows.Forms.Button Sec1bot;
+        private System.Windows.Forms.Button Sec1botright;
+        private System.Windows.Forms.Button Sec1mid;
+        private System.Windows.Forms.Button Sec1botleft;
+        private System.Windows.Forms.Button Sec1topright;
+        private System.Windows.Forms.Button Sec1topleft;
+        private System.Windows.Forms.Button Sec1top;
+        private System.Windows.Forms.Label lblAmpm;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button btnSec6d;
-        private System.Windows.Forms.Button btnSec6c;
-        private System.Windows.Forms.Button btnSec6g;
-        private System.Windows.Forms.Button btnSec6e;
-        private System.Windows.Forms.Button btnSec6b;
-        private System.Windows.Forms.Button btnSec6f;
-        private System.Windows.Forms.Button btnSec6a;
-        private System.Windows.Forms.Button btnSec5d;
-        private System.Windows.Forms.Button btnSec5c;
-        private System.Windows.Forms.Button btnSec5g;
-        private System.Windows.Forms.Button btnSec5e;
-        private System.Windows.Forms.Button btnSec5b;
-        private System.Windows.Forms.Button btnSec5f;
-        private System.Windows.Forms.Button btnSec5a;
     }
 }
 

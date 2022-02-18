@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oFEwG17Bw2v5UVWarqrIrbkswZAGV9RF08B81B/z8Uq8YjDYdtWSyuZezbn2nmaiadQeowjOnyypPQ5CXRgLdw==",
+  "dgSpecHash": "9ZxwfEQmj8p+nA8YU94rsVfWBaR8jA+WTJqkIeaPCbohDLOoHv+f34k4f+xJBA/NPvgQyqowP82osi5go9uu/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\acer\\Source\\Repos\\OOP\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment\\Acitivity6_Time7Segment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
