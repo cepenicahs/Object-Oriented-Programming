@@ -207,7 +207,8 @@ namespace Acitivity6_Time7Segment
             // Hour2bot
             // 
             this.Hour2bot.BackColor = System.Drawing.Color.Red;
-            this.Hour2bot.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2bot.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2bot.FlatAppearance.BorderSize = 0;
             this.Hour2bot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2bot.Location = new System.Drawing.Point(210, 264);
             this.Hour2bot.Name = "Hour2bot";
@@ -218,7 +219,8 @@ namespace Acitivity6_Time7Segment
             // Hour2botright
             // 
             this.Hour2botright.BackColor = System.Drawing.Color.Red;
-            this.Hour2botright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2botright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2botright.FlatAppearance.BorderSize = 0;
             this.Hour2botright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2botright.Location = new System.Drawing.Point(237, 211);
             this.Hour2botright.Name = "Hour2botright";
@@ -229,7 +231,8 @@ namespace Acitivity6_Time7Segment
             // Hour2mid
             // 
             this.Hour2mid.BackColor = System.Drawing.Color.Red;
-            this.Hour2mid.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2mid.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2mid.FlatAppearance.BorderSize = 0;
             this.Hour2mid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2mid.Location = new System.Drawing.Point(210, 196);
             this.Hour2mid.Name = "Hour2mid";
@@ -240,7 +243,8 @@ namespace Acitivity6_Time7Segment
             // Hour2botleft
             // 
             this.Hour2botleft.BackColor = System.Drawing.Color.Red;
-            this.Hour2botleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2botleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2botleft.FlatAppearance.BorderSize = 0;
             this.Hour2botleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2botleft.Location = new System.Drawing.Point(198, 211);
             this.Hour2botleft.Name = "Hour2botleft";
@@ -251,7 +255,8 @@ namespace Acitivity6_Time7Segment
             // Hour2topright
             // 
             this.Hour2topright.BackColor = System.Drawing.Color.Red;
-            this.Hour2topright.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2topright.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2topright.FlatAppearance.BorderSize = 0;
             this.Hour2topright.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2topright.Location = new System.Drawing.Point(237, 139);
             this.Hour2topright.Name = "Hour2topright";
@@ -262,7 +267,8 @@ namespace Acitivity6_Time7Segment
             // Hour2topleft
             // 
             this.Hour2topleft.BackColor = System.Drawing.Color.Red;
-            this.Hour2topleft.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2topleft.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2topleft.FlatAppearance.BorderSize = 0;
             this.Hour2topleft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2topleft.Location = new System.Drawing.Point(198, 139);
             this.Hour2topleft.Name = "Hour2topleft";
@@ -273,7 +279,8 @@ namespace Acitivity6_Time7Segment
             // Hour2top
             // 
             this.Hour2top.BackColor = System.Drawing.Color.Red;
-            this.Hour2top.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.Hour2top.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Hour2top.FlatAppearance.BorderSize = 0;
             this.Hour2top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Hour2top.Location = new System.Drawing.Point(210, 128);
             this.Hour2top.Name = "Hour2top";
