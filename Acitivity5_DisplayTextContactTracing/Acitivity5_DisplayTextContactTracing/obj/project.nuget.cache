@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/brdbN8+GIUN7jEuVe4sTFjkI+5sG6MKvDknmmQ8KWi+V1i2eN3ZWXfAUL7ECFanbZUgiVvQYRqh8t89Ok2Ajw==",
+  "dgSpecHash": "7KrsMQdOAt2EptHNYz0mipXSOeu9zDTAWL/ydDP123bm2Cu22Whu3Mu5JsczYX5zoxWEkrfv25QnoxV9fXpxjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Acitivity5_DisplayTextContactTracing\\Acitivity5_DisplayTextContactTracing\\Acitivity5_DisplayTextContactTracing.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\acer\\source\\repos\\OOP\\Acitivity5_DisplayTextContactTracing\\Acitivity5_DisplayTextContactTracing\\Acitivity5_DisplayTextContactTracing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
