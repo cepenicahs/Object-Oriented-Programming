@@ -76,7 +76,6 @@ namespace Acitivity6_Time7Segment
             this.Sec1topright = new System.Windows.Forms.Button();
             this.Sec1topleft = new System.Windows.Forms.Button();
             this.Sec1top = new System.Windows.Forms.Button();
-            this.lblAmpm = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -590,17 +589,6 @@ namespace Acitivity6_Time7Segment
             this.Sec1top.TabIndex = 34;
             this.Sec1top.UseVisualStyleBackColor = false;
             // 
-            // lblAmpm
-            // 
-            this.lblAmpm.AutoSize = true;
-            this.lblAmpm.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAmpm.ForeColor = System.Drawing.Color.Red;
-            this.lblAmpm.Location = new System.Drawing.Point(645, 244);
-            this.lblAmpm.Name = "lblAmpm";
-            this.lblAmpm.Size = new System.Drawing.Size(106, 56);
-            this.lblAmpm.TabIndex = 48;
-            this.lblAmpm.Text = "AM";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -637,7 +625,6 @@ namespace Acitivity6_Time7Segment
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lblAmpm);
             this.Controls.Add(this.Sec2bot);
             this.Controls.Add(this.Sec2botright);
             this.Controls.Add(this.Sec2mid);
@@ -741,7 +728,6 @@ namespace Acitivity6_Time7Segment
         private System.Windows.Forms.Button Sec1topright;
         private System.Windows.Forms.Button Sec1topleft;
         private System.Windows.Forms.Button Sec1top;
-        private System.Windows.Forms.Label lblAmpm;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
