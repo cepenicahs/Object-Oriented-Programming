@@ -93,5 +93,10 @@ namespace Activity8_ContactTracingApp
         {
             MessageBox.Show("This is a contact tracing application. Click the SCAN button and start scanning your QR code with the system camera.");
         }
+
+        private void viewRecordsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
