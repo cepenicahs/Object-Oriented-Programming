@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4sTM5pLf2bx/Tn/e/I7KvaTAkBLYX6viB/qFZyQOMvImBoUAQ51L/70jTf76mfcPZrV2QP6HECR6VEoGmmzt2w==",
+  "dgSpecHash": "hvc+q3vCkA+4JCUbh3khCkmE92UdW4kIuZakglMJSviDh6N/7NXtdk5UuM3NSyXI7GYFbyJuQhaskD05HAVEdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\source\\repos\\Object-Oriented-Programming\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\acer\\source\\repos\\OOP\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

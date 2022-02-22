@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Activity2_ScientificCalculator",
+    "\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator"
   ],
+  "SelectedNode": "\\Activity2_ScientificCalculator\\Activity2_ScientificCalculator\\frmScical.cs",
   "PreviewInSolutionExplorer": false
 }

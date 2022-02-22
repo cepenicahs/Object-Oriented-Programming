@@ -63,7 +63,6 @@ namespace Activity8_ContactTracingApp
                 {
                     StreamWriter Decode;
                     Decode = File.AppendText("ITraceRecords.txt");
-                    Decode.WriteLine("ITRACE CONTACT TRACING APP RECORDS");
                     Decode.WriteLine(" ");
                     Decode.WriteLine("Date:" + " " + DateTime.Now.ToString("MM/dd/yyyy"));
                     Decode.WriteLine("Time:" + " " + DateTime.Now.ToString("h:mm:ss tt"));

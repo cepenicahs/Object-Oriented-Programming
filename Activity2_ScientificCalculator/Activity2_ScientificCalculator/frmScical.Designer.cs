@@ -33,7 +33,7 @@ namespace Activity2_ScientificCalculator
             this.label2 = new System.Windows.Forms.Label();
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnAns = new System.Windows.Forms.Button();
-            this.btnBack = new System.Windows.Forms.Button();
+            this.btnErase = new System.Windows.Forms.Button();
             this.btnPercent = new System.Windows.Forms.Button();
             this.btnDot = new System.Windows.Forms.Button();
             this.btn0 = new System.Windows.Forms.Button();
@@ -58,7 +58,7 @@ namespace Activity2_ScientificCalculator
             this.btnDel = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
+            this.btnPi = new System.Windows.Forms.Button();
             this.button40 = new System.Windows.Forms.Button();
             this.btnArccot = new System.Windows.Forms.Button();
             this.btnCotan = new System.Windows.Forms.Button();
@@ -107,6 +107,7 @@ namespace Activity2_ScientificCalculator
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblShow = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -133,6 +134,7 @@ namespace Activity2_ScientificCalculator
             this.btnEquals.TabIndex = 220;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // btnAns
             // 
@@ -148,18 +150,19 @@ namespace Activity2_ScientificCalculator
             this.btnAns.UseVisualStyleBackColor = false;
             this.btnAns.Click += new System.EventHandler(this.btnAns_Click);
             // 
-            // btnBack
+            // btnErase
             // 
-            this.btnBack.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBack.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBack.Location = new System.Drawing.Point(305, 502);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(82, 50);
-            this.btnBack.TabIndex = 218;
-            this.btnBack.Text = "←";
-            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnErase.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnErase.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnErase.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnErase.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnErase.Location = new System.Drawing.Point(305, 502);
+            this.btnErase.Name = "btnErase";
+            this.btnErase.Size = new System.Drawing.Size(82, 50);
+            this.btnErase.TabIndex = 218;
+            this.btnErase.Text = "←";
+            this.btnErase.UseVisualStyleBackColor = false;
+            this.btnErase.Click += new System.EventHandler(this.btnErase_Click);
             // 
             // btnPercent
             // 
@@ -191,7 +194,7 @@ namespace Activity2_ScientificCalculator
             this.btnDot.TabIndex = 216;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = false;
-            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
+            this.btnDot.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn0
             // 
@@ -207,7 +210,7 @@ namespace Activity2_ScientificCalculator
             this.btn0.TabIndex = 215;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
-            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            this.btn0.Click += new System.EventHandler(this.Number_Click);
             // 
             // btnPlus
             // 
@@ -221,7 +224,7 @@ namespace Activity2_ScientificCalculator
             this.btnPlus.TabIndex = 214;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = false;
-            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
+            this.btnPlus.Click += new System.EventHandler(this.Arithmetic_Click);
             // 
             // btnMult
             // 
@@ -235,7 +238,7 @@ namespace Activity2_ScientificCalculator
             this.btnMult.TabIndex = 213;
             this.btnMult.Text = "*";
             this.btnMult.UseVisualStyleBackColor = false;
-            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
+            this.btnMult.Click += new System.EventHandler(this.Arithmetic_Click);
             // 
             // btnMin
             // 
@@ -249,7 +252,7 @@ namespace Activity2_ScientificCalculator
             this.btnMin.TabIndex = 212;
             this.btnMin.Text = "-";
             this.btnMin.UseVisualStyleBackColor = false;
-            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            this.btnMin.Click += new System.EventHandler(this.Arithmetic_Click);
             // 
             // btn3
             // 
@@ -265,7 +268,7 @@ namespace Activity2_ScientificCalculator
             this.btn3.TabIndex = 211;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn2
             // 
@@ -281,7 +284,7 @@ namespace Activity2_ScientificCalculator
             this.btn2.TabIndex = 210;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn1
             // 
@@ -297,7 +300,7 @@ namespace Activity2_ScientificCalculator
             this.btn1.TabIndex = 209;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.Number_Click);
             // 
             // btnDiv
             // 
@@ -311,7 +314,7 @@ namespace Activity2_ScientificCalculator
             this.btnDiv.TabIndex = 208;
             this.btnDiv.Text = "/";
             this.btnDiv.UseVisualStyleBackColor = false;
-            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
+            this.btnDiv.Click += new System.EventHandler(this.Arithmetic_Click);
             // 
             // btnF
             // 
@@ -355,7 +358,7 @@ namespace Activity2_ScientificCalculator
             this.btn6.TabIndex = 205;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn5
             // 
@@ -371,7 +374,7 @@ namespace Activity2_ScientificCalculator
             this.btn5.TabIndex = 204;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn4
             // 
@@ -387,7 +390,7 @@ namespace Activity2_ScientificCalculator
             this.btn4.TabIndex = 203;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.Number_Click);
             // 
             // btnC
             // 
@@ -445,7 +448,7 @@ namespace Activity2_ScientificCalculator
             this.btn9.TabIndex = 199;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn8
             // 
@@ -461,7 +464,7 @@ namespace Activity2_ScientificCalculator
             this.btn8.TabIndex = 198;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.Number_Click);
             // 
             // btn7
             // 
@@ -477,7 +480,7 @@ namespace Activity2_ScientificCalculator
             this.btn7.TabIndex = 197;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.Number_Click);
             // 
             // btnDel
             // 
@@ -520,19 +523,19 @@ namespace Activity2_ScientificCalculator
             this.button38.UseVisualStyleBackColor = false;
             this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
-            // button39
+            // btnPi
             // 
-            this.button39.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button39.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button39.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button39.Location = new System.Drawing.Point(251, 301);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(72, 27);
-            this.button39.TabIndex = 193;
-            this.button39.Text = "ran";
-            this.button39.UseVisualStyleBackColor = false;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
+            this.btnPi.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPi.Location = new System.Drawing.Point(251, 301);
+            this.btnPi.Name = "btnPi";
+            this.btnPi.Size = new System.Drawing.Size(72, 27);
+            this.btnPi.TabIndex = 193;
+            this.btnPi.Text = "ran";
+            this.btnPi.UseVisualStyleBackColor = false;
+            this.btnPi.Click += new System.EventHandler(this.button39_Click);
             // 
             // button40
             // 
@@ -1089,16 +1092,29 @@ namespace Activity2_ScientificCalculator
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
+            // lblShow
+            // 
+            this.lblShow.AutoSize = true;
+            this.lblShow.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblShow.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblShow.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblShow.Location = new System.Drawing.Point(458, 85);
+            this.lblShow.Name = "lblShow";
+            this.lblShow.Size = new System.Drawing.Size(45, 19);
+            this.lblShow.TabIndex = 222;
+            this.lblShow.Text = "label3";
+            // 
             // frmScical
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(580, 608);
+            this.Controls.Add(this.lblShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnAns);
-            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnErase);
             this.Controls.Add(this.btnPercent);
             this.Controls.Add(this.btnDot);
             this.Controls.Add(this.btn0);
@@ -1123,7 +1139,7 @@ namespace Activity2_ScientificCalculator
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button38);
-            this.Controls.Add(this.button39);
+            this.Controls.Add(this.btnPi);
             this.Controls.Add(this.button40);
             this.Controls.Add(this.btnArccot);
             this.Controls.Add(this.btnCotan);
@@ -1176,7 +1192,7 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnEquals;
         private System.Windows.Forms.Button btnAns;
-        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnErase;
         private System.Windows.Forms.Button btnPercent;
         private System.Windows.Forms.Button btnDot;
         private System.Windows.Forms.Button btn0;
@@ -1201,7 +1217,7 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button btnPi;
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button btnArccot;
         private System.Windows.Forms.Button btnCotan;
@@ -1250,6 +1266,7 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem historyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.Label lblShow;
     }
 }
 

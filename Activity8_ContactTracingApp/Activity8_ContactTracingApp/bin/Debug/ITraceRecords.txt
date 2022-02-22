@@ -1,12 +1,15 @@
-ITRACE CONTACT TRACING APP RECORDS
  
 Date: 02/18/2022
-Time: 4:05:50 PM
-https://me-qr.com/12362582
- 
-ITRACE CONTACT TRACING APP RECORDS
- 
-Date: 02/18/2022
-Time: 4:06:06 PM
-https://me-qr.com/12362582
+Time: 6:53:56 PM
+Name: Nicah S. Cepe
+
+Age: 22
+
+Gender: Female
+
+Address: L17 B10 Cabuyao Central Subdv. Brgy. Pulo, Cabuyao Laguna
+
+Contact Number: 09176537483
+
+E-mail: cepenicah16@gmail.com
  
