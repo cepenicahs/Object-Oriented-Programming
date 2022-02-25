@@ -30,71 +30,18 @@ namespace Activity2_ScientificCalculator
 
         }
 
-       
-        private void Button_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
+            result = 0;
             txtField.Text = "0";
             lblShow.Text = "";
+            rboBin.Checked = false;
+            rboDec.Checked = false;
+            rboHex.Checked = false;
+            rboOct.Checked = false;
         }
 
-        private void btn1_Click(object sender, EventArgs e)
-        {
-         
 
-        }
-
-        private void btn2_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void btn4_Click(object sender, EventArgs e)
-        {
-              
-
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn6_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void btn7_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void btn8_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void btn9_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btn0_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void btnDot_Click(object sender, EventArgs e)
-        {
-          
-        }
 
         private void btnPercent_Click(object sender, EventArgs e)
         {
@@ -128,11 +75,6 @@ namespace Activity2_ScientificCalculator
             txtField.Text = System.Convert.ToString(qTan);
         }
 
-        private void btnCotan_Click(object sender, EventArgs e)
-        {
-            int a = int.Parse(txtField.Text);
-            txtField.Text = System.Convert.ToString(a);
-        }
 
         private void btnArcsin_Click(object sender, EventArgs e)
         {
@@ -158,11 +100,6 @@ namespace Activity2_ScientificCalculator
             txtField.Text = System.Convert.ToString(qTanh);
         }
 
-        private void btnArccot_Click(object sender, EventArgs e)
-        {
-            int a = int.Parse(txtField.Text);
-            txtField.Text = System.Convert.ToString(a, 16);
-        }
 
         private void button18_Click(object sender, EventArgs e)
         {
@@ -187,12 +124,6 @@ namespace Activity2_ScientificCalculator
 
         }
 
-        private void button40_Click(object sender, EventArgs e)
-        {
-            int a = int.Parse(txtField.Text);
-            txtField.Text = System.Convert.ToString(a, 2);
-
-        }
 
         private void button17_Click(object sender, EventArgs e)
         {
@@ -210,16 +141,7 @@ namespace Activity2_ScientificCalculator
             txtField.Text = System.Convert.ToString(ilog);
         }
 
-        private void button32_Click(object sender, EventArgs e)
-        {
-           
-        }
 
-        private void button39_Click(object sender, EventArgs e)
-        {
-            int a = int.Parse(txtField.Text);
-            txtField.Text = System.Convert.ToString(a, 8);
-        }
 
         private void button22_Click(object sender, EventArgs e)
         {
@@ -230,11 +152,6 @@ namespace Activity2_ScientificCalculator
 
         }
 
-        private void button24_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void button31_Click(object sender, EventArgs e)
         {
             Double a;
@@ -242,36 +159,7 @@ namespace Activity2_ScientificCalculator
             txtField.Text = System.Convert.ToString(a);
         }
 
-        private void button38_Click(object sender, EventArgs e)
-        {
-
-                
-        }
-
-        private void button21_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void button20_Click(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void button30_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-          
-        }
+   
 
         private void button11_Click(object sender, EventArgs e)
         {
@@ -427,6 +315,96 @@ namespace Activity2_ScientificCalculator
         private void converterToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            String [] a;
+            result = 1;
+            a = txtField.Text.Split();
+            int num = Convert.ToInt16(a[0]);
+
+            for (int i = 1; i < num + 1; i++)
+            {
+                result *= (Convert.ToDouble(i));
+            }
+
+            txtField.Text = Convert.ToString(result);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            String[] a;
+            Double b;
+            txtField.Text = txtField.Text + " = ";
+            a = txtField.Text.Split();
+            b = Convert.ToDouble(a[0]);
+            result = Math.Log10(b);
+            txtField.Text = Convert.ToString(result);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            String[] a;
+            Double b;
+            a = txtField.Text.Split();
+            b = Convert.ToDouble(a[0]);
+            result = Math.Pow(10, b);
+            txtField.Text = Convert.ToString(result);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            double cbroot_num = Double.Parse(txtField.Text);
+            lblShow.Text = System.Convert.ToString("cuberoot" + "(" + (txtField.Text) + ")");
+            cbroot_num = (Math.Pow(cbroot_num, (double)1.0 / 3.0));
+            txtField.Text = System.Convert.ToString(cbroot_num);
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            rboDec.Checked = false;
+            rboHex.Checked = false;
+            rboOct.Checked = false;
+            int a = int.Parse(txtField.Text);
+            txtField.Text = System.Convert.ToString(a, 2);
+        }
+
+        private void rboDec_CheckedChanged(object sender, EventArgs e)
+        {
+            rboBin.Checked = false;
+            rboHex.Checked = false;
+            rboOct.Checked = false;
+            int a = int.Parse(txtField.Text);
+            txtField.Text = System.Convert.ToString(a);
+        }
+
+        private void rboHex_CheckedChanged(object sender, EventArgs e)
+        {
+            rboBin.Checked = false;
+            rboDec.Checked = false;
+            rboOct.Checked = false;
+            int a = int.Parse(txtField.Text);
+            txtField.Text = System.Convert.ToString(a, 16);
+        }
+
+        private void rboOct_CheckedChanged(object sender, EventArgs e)
+        {
+            rboBin.Checked = false;
+            rboDec.Checked = false;
+            rboHex.Checked = false;
+            int a = int.Parse(txtField.Text);
+            txtField.Text = System.Convert.ToString(a, 8);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            txtField.Text = "0";
+            lblShow.Text = "";
+            rboBin.Checked = false;
+            rboDec.Checked = false;
+            rboHex.Checked = false;
+            rboOct.Checked = false;
         }
     }
 }

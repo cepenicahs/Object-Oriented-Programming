@@ -48,10 +48,6 @@ namespace Activity2_ScientificCalculator
             this.btn9 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
-            this.btnPi = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.btnArccot = new System.Windows.Forms.Button();
-            this.btnDec = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.btnArctan = new System.Windows.Forms.Button();
@@ -65,7 +61,6 @@ namespace Activity2_ScientificCalculator
             this.button18 = new System.Windows.Forms.Button();
             this.btnArcsin = new System.Windows.Forms.Button();
             this.btnSin = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
             this.txtField = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,6 +77,16 @@ namespace Activity2_ScientificCalculator
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.rboBin = new System.Windows.Forms.RadioButton();
+            this.rboDec = new System.Windows.Forms.RadioButton();
+            this.rboOct = new System.Windows.Forms.RadioButton();
+            this.rboHex = new System.Windows.Forms.RadioButton();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,9 +97,9 @@ namespace Activity2_ScientificCalculator
             this.btnEquals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEquals.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEquals.Location = new System.Drawing.Point(388, 466);
+            this.btnEquals.Location = new System.Drawing.Point(388, 512);
             this.btnEquals.Name = "btnEquals";
-            this.btnEquals.Size = new System.Drawing.Size(92, 69);
+            this.btnEquals.Size = new System.Drawing.Size(92, 66);
             this.btnEquals.TabIndex = 220;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
@@ -107,7 +112,7 @@ namespace Activity2_ScientificCalculator
             this.btnErase.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnErase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnErase.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnErase.Location = new System.Drawing.Point(388, 314);
+            this.btnErase.Location = new System.Drawing.Point(388, 360);
             this.btnErase.Name = "btnErase";
             this.btnErase.Size = new System.Drawing.Size(92, 92);
             this.btnErase.TabIndex = 218;
@@ -123,7 +128,7 @@ namespace Activity2_ScientificCalculator
             this.btnPercent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPercent.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnPercent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnPercent.Location = new System.Drawing.Point(209, 482);
+            this.btnPercent.Location = new System.Drawing.Point(209, 528);
             this.btnPercent.Name = "btnPercent";
             this.btnPercent.Size = new System.Drawing.Size(90, 50);
             this.btnPercent.TabIndex = 217;
@@ -139,7 +144,7 @@ namespace Activity2_ScientificCalculator
             this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDot.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDot.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDot.Location = new System.Drawing.Point(113, 482);
+            this.btnDot.Location = new System.Drawing.Point(113, 528);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(90, 50);
             this.btnDot.TabIndex = 216;
@@ -155,7 +160,7 @@ namespace Activity2_ScientificCalculator
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn0.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn0.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn0.Location = new System.Drawing.Point(17, 482);
+            this.btn0.Location = new System.Drawing.Point(17, 528);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(90, 50);
             this.btn0.TabIndex = 215;
@@ -170,7 +175,7 @@ namespace Activity2_ScientificCalculator
             this.btnPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPlus.Location = new System.Drawing.Point(305, 370);
+            this.btnPlus.Location = new System.Drawing.Point(305, 416);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(77, 50);
             this.btnPlus.TabIndex = 214;
@@ -185,9 +190,9 @@ namespace Activity2_ScientificCalculator
             this.btnMult.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnMult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMult.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMult.Location = new System.Drawing.Point(305, 485);
+            this.btnMult.Location = new System.Drawing.Point(305, 531);
             this.btnMult.Name = "btnMult";
-            this.btnMult.Size = new System.Drawing.Size(77, 50);
+            this.btnMult.Size = new System.Drawing.Size(77, 47);
             this.btnMult.TabIndex = 213;
             this.btnMult.Text = "*";
             this.btnMult.UseVisualStyleBackColor = false;
@@ -200,7 +205,7 @@ namespace Activity2_ScientificCalculator
             this.btnMin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMin.Location = new System.Drawing.Point(305, 426);
+            this.btnMin.Location = new System.Drawing.Point(305, 472);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(77, 50);
             this.btnMin.TabIndex = 212;
@@ -216,7 +221,7 @@ namespace Activity2_ScientificCalculator
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn3.Location = new System.Drawing.Point(209, 426);
+            this.btn3.Location = new System.Drawing.Point(209, 472);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(90, 50);
             this.btn3.TabIndex = 211;
@@ -232,7 +237,7 @@ namespace Activity2_ScientificCalculator
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn2.Location = new System.Drawing.Point(113, 426);
+            this.btn2.Location = new System.Drawing.Point(113, 472);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(90, 50);
             this.btn2.TabIndex = 210;
@@ -248,7 +253,7 @@ namespace Activity2_ScientificCalculator
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn1.Location = new System.Drawing.Point(17, 426);
+            this.btn1.Location = new System.Drawing.Point(17, 472);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(90, 50);
             this.btn1.TabIndex = 209;
@@ -263,7 +268,7 @@ namespace Activity2_ScientificCalculator
             this.btnDiv.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDiv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDiv.Location = new System.Drawing.Point(305, 314);
+            this.btnDiv.Location = new System.Drawing.Point(305, 360);
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(77, 50);
             this.btnDiv.TabIndex = 208;
@@ -279,7 +284,7 @@ namespace Activity2_ScientificCalculator
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn6.Location = new System.Drawing.Point(209, 370);
+            this.btn6.Location = new System.Drawing.Point(209, 416);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(90, 50);
             this.btn6.TabIndex = 205;
@@ -295,7 +300,7 @@ namespace Activity2_ScientificCalculator
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn5.Location = new System.Drawing.Point(113, 370);
+            this.btn5.Location = new System.Drawing.Point(113, 416);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(90, 50);
             this.btn5.TabIndex = 204;
@@ -311,7 +316,7 @@ namespace Activity2_ScientificCalculator
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn4.Location = new System.Drawing.Point(17, 370);
+            this.btn4.Location = new System.Drawing.Point(17, 416);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(90, 50);
             this.btn4.TabIndex = 203;
@@ -327,7 +332,7 @@ namespace Activity2_ScientificCalculator
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn9.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn9.Location = new System.Drawing.Point(209, 314);
+            this.btn9.Location = new System.Drawing.Point(209, 360);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(90, 50);
             this.btn9.TabIndex = 199;
@@ -343,7 +348,7 @@ namespace Activity2_ScientificCalculator
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn8.Location = new System.Drawing.Point(113, 314);
+            this.btn8.Location = new System.Drawing.Point(113, 360);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(90, 50);
             this.btn8.TabIndex = 198;
@@ -359,73 +364,13 @@ namespace Activity2_ScientificCalculator
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn7.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn7.Location = new System.Drawing.Point(17, 314);
+            this.btn7.Location = new System.Drawing.Point(17, 360);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(90, 50);
             this.btn7.TabIndex = 197;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
             this.btn7.Click += new System.EventHandler(this.Number_Click);
-            // 
-            // btnPi
-            // 
-            this.btnPi.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnPi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnPi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPi.Location = new System.Drawing.Point(383, 282);
-            this.btnPi.Name = "btnPi";
-            this.btnPi.Size = new System.Drawing.Size(97, 26);
-            this.btnPi.TabIndex = 193;
-            this.btnPi.Text = "Oct";
-            this.btnPi.UseVisualStyleBackColor = false;
-            this.btnPi.Click += new System.EventHandler(this.button39_Click);
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button40.Location = new System.Drawing.Point(17, 282);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(97, 26);
-            this.button40.TabIndex = 192;
-            this.button40.Text = "Bin";
-            this.button40.UseVisualStyleBackColor = false;
-            this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
-            // btnArccot
-            // 
-            this.btnArccot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnArccot.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnArccot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnArccot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnArccot.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnArccot.Location = new System.Drawing.Point(260, 282);
-            this.btnArccot.Name = "btnArccot";
-            this.btnArccot.Size = new System.Drawing.Size(97, 26);
-            this.btnArccot.TabIndex = 191;
-            this.btnArccot.Text = "Hex";
-            this.btnArccot.UseVisualStyleBackColor = false;
-            this.btnArccot.Click += new System.EventHandler(this.btnArccot_Click);
-            // 
-            // btnDec
-            // 
-            this.btnDec.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDec.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDec.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnDec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDec.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDec.Location = new System.Drawing.Point(138, 282);
-            this.btnDec.Name = "btnDec";
-            this.btnDec.Size = new System.Drawing.Size(97, 26);
-            this.btnDec.TabIndex = 190;
-            this.btnDec.Text = "Dec";
-            this.btnDec.UseVisualStyleBackColor = false;
-            this.btnDec.Click += new System.EventHandler(this.btnCotan_Click);
             // 
             // button31
             // 
@@ -434,7 +379,7 @@ namespace Activity2_ScientificCalculator
             this.button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button31.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button31.Location = new System.Drawing.Point(330, 188);
+            this.button31.Location = new System.Drawing.Point(330, 216);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(72, 41);
             this.button31.TabIndex = 187;
@@ -449,7 +394,7 @@ namespace Activity2_ScientificCalculator
             this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button33.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button33.Location = new System.Drawing.Point(251, 235);
+            this.button33.Location = new System.Drawing.Point(251, 263);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(72, 41);
             this.button33.TabIndex = 185;
@@ -464,7 +409,7 @@ namespace Activity2_ScientificCalculator
             this.btnArctan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnArctan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnArctan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnArctan.Location = new System.Drawing.Point(95, 235);
+            this.btnArctan.Location = new System.Drawing.Point(95, 263);
             this.btnArctan.Name = "btnArctan";
             this.btnArctan.Size = new System.Drawing.Size(72, 41);
             this.btnArctan.TabIndex = 184;
@@ -479,7 +424,7 @@ namespace Activity2_ScientificCalculator
             this.btnTan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnTan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTan.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTan.Location = new System.Drawing.Point(17, 235);
+            this.btnTan.Location = new System.Drawing.Point(17, 263);
             this.btnTan.Name = "btnTan";
             this.btnTan.Size = new System.Drawing.Size(72, 41);
             this.btnTan.TabIndex = 183;
@@ -494,7 +439,7 @@ namespace Activity2_ScientificCalculator
             this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button25.Location = new System.Drawing.Point(251, 188);
+            this.button25.Location = new System.Drawing.Point(251, 216);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(72, 41);
             this.button25.TabIndex = 179;
@@ -509,7 +454,7 @@ namespace Activity2_ScientificCalculator
             this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button26.Location = new System.Drawing.Point(173, 235);
+            this.button26.Location = new System.Drawing.Point(173, 263);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(72, 41);
             this.button26.TabIndex = 178;
@@ -524,7 +469,7 @@ namespace Activity2_ScientificCalculator
             this.btnArccos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnArccos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnArccos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnArccos.Location = new System.Drawing.Point(95, 188);
+            this.btnArccos.Location = new System.Drawing.Point(95, 216);
             this.btnArccos.Name = "btnArccos";
             this.btnArccos.Size = new System.Drawing.Size(72, 41);
             this.btnArccos.TabIndex = 177;
@@ -539,7 +484,7 @@ namespace Activity2_ScientificCalculator
             this.btnCos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnCos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCos.Location = new System.Drawing.Point(17, 188);
+            this.btnCos.Location = new System.Drawing.Point(17, 216);
             this.btnCos.Name = "btnCos";
             this.btnCos.Size = new System.Drawing.Size(72, 41);
             this.btnCos.TabIndex = 176;
@@ -554,7 +499,7 @@ namespace Activity2_ScientificCalculator
             this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button22.Location = new System.Drawing.Point(330, 141);
+            this.button22.Location = new System.Drawing.Point(330, 169);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(72, 41);
             this.button22.TabIndex = 173;
@@ -569,7 +514,7 @@ namespace Activity2_ScientificCalculator
             this.btnLog.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLog.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLog.Location = new System.Drawing.Point(251, 141);
+            this.btnLog.Location = new System.Drawing.Point(251, 169);
             this.btnLog.Name = "btnLog";
             this.btnLog.Size = new System.Drawing.Size(72, 41);
             this.btnLog.TabIndex = 172;
@@ -584,11 +529,11 @@ namespace Activity2_ScientificCalculator
             this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button18.Location = new System.Drawing.Point(173, 141);
+            this.button18.Location = new System.Drawing.Point(173, 169);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(72, 41);
             this.button18.TabIndex = 171;
-            this.button18.Text = "x^2";
+            this.button18.Text = "x²";
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
@@ -599,7 +544,7 @@ namespace Activity2_ScientificCalculator
             this.btnArcsin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnArcsin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnArcsin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnArcsin.Location = new System.Drawing.Point(95, 141);
+            this.btnArcsin.Location = new System.Drawing.Point(95, 169);
             this.btnArcsin.Name = "btnArcsin";
             this.btnArcsin.Size = new System.Drawing.Size(72, 41);
             this.btnArcsin.TabIndex = 170;
@@ -614,7 +559,7 @@ namespace Activity2_ScientificCalculator
             this.btnSin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.btnSin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSin.Location = new System.Drawing.Point(17, 141);
+            this.btnSin.Location = new System.Drawing.Point(17, 169);
             this.btnSin.Name = "btnSin";
             this.btnSin.Size = new System.Drawing.Size(72, 41);
             this.btnSin.TabIndex = 169;
@@ -622,31 +567,15 @@ namespace Activity2_ScientificCalculator
             this.btnSin.UseVisualStyleBackColor = false;
             this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
             // 
-            // btnClear
-            // 
-            this.btnClear.BackColor = System.Drawing.Color.Teal;
-            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(408, 141);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(72, 88);
-            this.btnClear.TabIndex = 168;
-            this.btnClear.Text = "C";
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
             // txtField
             // 
             this.txtField.BackColor = System.Drawing.Color.White;
             this.txtField.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtField.Location = new System.Drawing.Point(17, 50);
+            this.txtField.Location = new System.Drawing.Point(17, 51);
             this.txtField.Multiline = true;
             this.txtField.Name = "txtField";
             this.txtField.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtField.Size = new System.Drawing.Size(463, 72);
+            this.txtField.Size = new System.Drawing.Size(463, 84);
             this.txtField.TabIndex = 159;
             this.txtField.Text = "0";
             this.txtField.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -702,28 +631,28 @@ namespace Activity2_ScientificCalculator
             // standardToolStripMenuItem
             // 
             this.standardToolStripMenuItem.Name = "standardToolStripMenuItem";
-            this.standardToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.standardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.standardToolStripMenuItem.Text = "Binary";
             this.standardToolStripMenuItem.Click += new System.EventHandler(this.standardToolStripMenuItem_Click);
             // 
             // scientificToolStripMenuItem
             // 
             this.scientificToolStripMenuItem.Name = "scientificToolStripMenuItem";
-            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.scientificToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.scientificToolStripMenuItem.Text = "Decimal";
             this.scientificToolStripMenuItem.Click += new System.EventHandler(this.scientificToolStripMenuItem_Click);
             // 
             // graphingToolStripMenuItem1
             // 
             this.graphingToolStripMenuItem1.Name = "graphingToolStripMenuItem1";
-            this.graphingToolStripMenuItem1.Size = new System.Drawing.Size(117, 22);
+            this.graphingToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.graphingToolStripMenuItem1.Text = "Hex";
             this.graphingToolStripMenuItem1.Click += new System.EventHandler(this.graphingToolStripMenuItem1_Click);
             // 
             // programmerToolStripMenuItem
             // 
             this.programmerToolStripMenuItem.Name = "programmerToolStripMenuItem";
-            this.programmerToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.programmerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.programmerToolStripMenuItem.Text = "Oct";
             this.programmerToolStripMenuItem.Click += new System.EventHandler(this.programmerToolStripMenuItem_Click);
             // 
@@ -752,11 +681,11 @@ namespace Activity2_ScientificCalculator
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(173, 188);
+            this.button2.Location = new System.Drawing.Point(173, 216);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(72, 41);
             this.button2.TabIndex = 224;
-            this.button2.Text = "x^3";
+            this.button2.Text = "x³";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -767,7 +696,7 @@ namespace Activity2_ScientificCalculator
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(330, 235);
+            this.button3.Location = new System.Drawing.Point(330, 263);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(72, 41);
             this.button3.TabIndex = 225;
@@ -782,7 +711,7 @@ namespace Activity2_ScientificCalculator
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(388, 412);
+            this.button4.Location = new System.Drawing.Point(388, 458);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(92, 50);
             this.button4.TabIndex = 226;
@@ -797,7 +726,7 @@ namespace Activity2_ScientificCalculator
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(408, 235);
+            this.button5.Location = new System.Drawing.Point(251, 310);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(72, 41);
             this.button5.TabIndex = 227;
@@ -805,12 +734,161 @@ namespace Activity2_ScientificCalculator
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(329, 310);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(72, 41);
+            this.button1.TabIndex = 228;
+            this.button1.Text = "n!";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.Location = new System.Drawing.Point(173, 310);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(72, 41);
+            this.button6.TabIndex = 229;
+            this.button6.Text = "log10(x)";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.Location = new System.Drawing.Point(95, 310);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(72, 41);
+            this.button7.TabIndex = 230;
+            this.button7.Text = "10ˣ";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.Location = new System.Drawing.Point(17, 310);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(72, 41);
+            this.button8.TabIndex = 231;
+            this.button8.Text = "³√x";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // rboBin
+            // 
+            this.rboBin.AutoSize = true;
+            this.rboBin.Location = new System.Drawing.Point(251, 144);
+            this.rboBin.Name = "rboBin";
+            this.rboBin.Size = new System.Drawing.Size(42, 19);
+            this.rboBin.TabIndex = 232;
+            this.rboBin.TabStop = true;
+            this.rboBin.Text = "Bin";
+            this.rboBin.UseVisualStyleBackColor = true;
+            this.rboBin.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // rboDec
+            // 
+            this.rboDec.AutoSize = true;
+            this.rboDec.Location = new System.Drawing.Point(17, 144);
+            this.rboDec.Name = "rboDec";
+            this.rboDec.Size = new System.Drawing.Size(45, 19);
+            this.rboDec.TabIndex = 233;
+            this.rboDec.TabStop = true;
+            this.rboDec.Text = "Dec";
+            this.rboDec.UseVisualStyleBackColor = true;
+            this.rboDec.CheckedChanged += new System.EventHandler(this.rboDec_CheckedChanged);
+            // 
+            // rboOct
+            // 
+            this.rboOct.AutoSize = true;
+            this.rboOct.Location = new System.Drawing.Point(95, 144);
+            this.rboOct.Name = "rboOct";
+            this.rboOct.Size = new System.Drawing.Size(44, 19);
+            this.rboOct.TabIndex = 235;
+            this.rboOct.TabStop = true;
+            this.rboOct.Text = "Oct";
+            this.rboOct.UseVisualStyleBackColor = true;
+            this.rboOct.CheckedChanged += new System.EventHandler(this.rboOct_CheckedChanged);
+            // 
+            // rboHex
+            // 
+            this.rboHex.AutoSize = true;
+            this.rboHex.Location = new System.Drawing.Point(173, 144);
+            this.rboHex.Name = "rboHex";
+            this.rboHex.Size = new System.Drawing.Size(46, 19);
+            this.rboHex.TabIndex = 234;
+            this.rboHex.TabStop = true;
+            this.rboHex.Text = "Hex";
+            this.rboHex.UseVisualStyleBackColor = true;
+            this.rboHex.CheckedChanged += new System.EventHandler(this.rboHex_CheckedChanged);
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.Teal;
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClear.ForeColor = System.Drawing.Color.White;
+            this.btnClear.Location = new System.Drawing.Point(408, 169);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(72, 88);
+            this.btnClear.TabIndex = 168;
+            this.btnClear.Text = "C";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Teal;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(407, 263);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(72, 88);
+            this.button9.TabIndex = 236;
+            this.button9.Text = "CE";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // frmScical
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(495, 573);
+            this.ClientSize = new System.Drawing.Size(495, 591);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.rboOct);
+            this.Controls.Add(this.rboHex);
+            this.Controls.Add(this.rboDec);
+            this.Controls.Add(this.rboBin);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -834,10 +912,6 @@ namespace Activity2_ScientificCalculator
             this.Controls.Add(this.btn9);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
-            this.Controls.Add(this.btnPi);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.btnArccot);
-            this.Controls.Add(this.btnDec);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.btnArctan);
@@ -886,10 +960,6 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btnPi;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button btnArccot;
-        private System.Windows.Forms.Button btnDec;
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button btnArctan;
@@ -903,7 +973,6 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button btnArcsin;
         private System.Windows.Forms.Button btnSin;
-        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtField;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
@@ -920,6 +989,16 @@ namespace Activity2_ScientificCalculator
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.RadioButton rboBin;
+        private System.Windows.Forms.RadioButton rboDec;
+        private System.Windows.Forms.RadioButton rboOct;
+        private System.Windows.Forms.RadioButton rboHex;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button button9;
     }
 }
 
